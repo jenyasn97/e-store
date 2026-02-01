@@ -1,0 +1,103 @@
+@use '../../styles/variables' as *;
+
+/* Figma layout_SWZ608: column, gap 32px, padding 80px 160px */
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 80px 160px;
+}
+
+/* layout_5IDRXZ: row, space-between, center */
+.category__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* style_F0AYBC: Inter 500, 24px, line-height 1.33, letter-spacing 1% */
+.category__title {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.3333333333;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+/* layout_NRC6DZ: row, gap 32px, слайдер */
+.category__list-wrap {
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.category__list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding-bottom: 8px;
+
+  &--infinite {
+    transition: transform 0.3s ease;
+    will-change: transform;
+  }
+
+  &--no-transition {
+    transition: none;
+  }
+}
+
+.category__arrows {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.category__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #000;
+  cursor: pointer;
+  transition: color 0.2s, opacity 0.2s;
+
+  &:hover,
+  &:focus {
+    color: #555;
+  }
+
+  &:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
+}
+
+/* Figma layout_3TLYRV: column, center, gap 8px, 160×128px, padding 24px 52px, fill #EDEDED, radius 15px */
+.category__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 52px;
+  width: 160px;
+  height: 128px;
+  background: #ededed;
+  border-radius: 15px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+/* style_3S0NV4: Inter 500, 16px, line-height 1.5, center */
+.category__name {
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+}

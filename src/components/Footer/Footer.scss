@@ -1,0 +1,95 @@
+@use '../../styles/variables' as *;
+
+/* Figma: Main/Black #000000, layout_FBM2QL, padding 104px 160px */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 104px 160px;
+  background: #000000;
+}
+
+/* layout_1U0M83: row, space-between, wrap, gap 113px */
+.footer__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 113px;
+  width: 100%;
+}
+
+/* layout_OYB9VL: column, gap 24px */
+.footer__logo-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 384px;
+}
+
+/* style_ETPM4C: Inter 500, 14px, line-height 1.705, fill_BOB04H #CFCFCF */
+.footer__about {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.705;
+  color: #cfcfcf;
+}
+
+/* layout_ZJX7KF: row, space-between, gap 32px, width 623px */
+.footer__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  width: 623px;
+  flex-shrink: 0;
+}
+
+/* layout_PFDUKG: column, gap 8px, width 295.5px */
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 295.5px;
+}
+
+/* style_Z9ZFSB: Inter 600, 16px, line-height 1, Main/White */
+.footer__section-title {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+/* style_8ZINIP: Inter 400, 14px, line-height 2.286, fill #CFCFCF, display block для разделения ссылок */
+.footer__link {
+  display: block;
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.2857142857;
+  color: #cfcfcf;
+  text-decoration: none;
+  text-align: left;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+/* layout_XDOPAO: row, space-between, gap 15px, width 173px */
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  width: 173px;
+}

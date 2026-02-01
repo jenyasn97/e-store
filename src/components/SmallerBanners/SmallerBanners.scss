@@ -1,0 +1,285 @@
+/**
+ * Smaller Banners — 1:1 по Figma node 245:2679
+ * Grid: row [Left Banners | Big Banner]
+ * Left: column [Wide Square (PlayStation) | Squares (AirPods | Vision Pro)]
+ */
+
+@use '../../styles/variables' as *;
+
+/* Figma: layout_2YT2OM — row, stretch */
+.smaller-banners {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+  align-self: stretch;
+}
+
+/* Figma: layout_RX6OPT — column, flex-end */
+.smaller-banners__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 1;
+}
+
+/* Figma: layout_AQCQUM — Wide Square, padding 0 48px 0 334px */
+.smaller-banners__wide {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+  align-self: stretch;
+  padding: 0 48px 0 334px;
+  min-height: 343px;
+  background: #ffffff; /* Main/White */
+  overflow: hidden;
+}
+
+/* Figma: layout_ZK4Q9L — PlayStation image, 360×343, absolute 0,0 */
+.smaller-banners__wide-bg {
+  position: absolute;
+  top: 45px;
+  left: -100px;
+  width: 360px;
+  height: 343px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+}
+
+/* Figma: layout_5WHKIG — column, center, gap 16px, flex-end */
+.smaller-banners__wide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  z-index: 1;
+  width: 340px;
+}
+
+/* Figma: style_9829WF — Inter 500, 49px, line-height 0.816 */
+.smaller-banners__wide-title {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 49px;
+  line-height: 0.816;
+  color: #000000;
+}
+
+/* Figma: style_OVHW7P — Inter 500, 14px, line-height 1.714 */
+.smaller-banners__wide-text {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.714;
+  color: #909090; /* fill_NS512N */
+}
+
+/* Figma: layout_EHVVO4 — Squares, row, stretch */
+.smaller-banners__squares {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: stretch;
+  align-self: stretch;
+}
+
+/* Figma: layout_VR5C37 — Square Banner, padding 0 48px 0 156px */
+.smaller-banners__square {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+
+  min-height: 272px;
+  overflow: hidden;
+
+  &--dark {
+    background: #353535; /* fill_YYFG30 Vision Pro */
+
+    .smaller-banners__square-title {
+      color: #ffffff;
+    }
+
+    .smaller-banners__square-text {
+      color: #909090;
+    }
+  }
+
+  &:not(.smaller-banners__square--dark) {
+    background: #ededed; /* fill_DS5GD8 AirPods */
+  }
+}
+
+/* Изображения заполняют карточку, текст поверх справа */
+.smaller-banners__square-image {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  height: 100%;
+  z-index: 0;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left center;
+  }
+}
+
+.smaller-banners__square--airpods .smaller-banners__square-image img {
+  object-position: left 60%;
+}
+
+.smaller-banners__square--vision .smaller-banners__square-image img {
+  object-position: left 40%;
+  transform: scaleX(-1);
+  width: 60%;
+
+}
+
+/* Текст поверх изображения справа */
+.smaller-banners__square-content {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 8px;
+  width: 160px;
+  text-align: left;
+}
+
+/* Выделение ключевых слов (AIR, MAX, Pro и т.д.) по макету */
+.smaller-banners__title-accent {
+  font-weight: 600;
+}
+
+.smaller-banners__wide-title .smaller-banners__title-accent,
+.smaller-banners__big-title .smaller-banners__title-accent {
+  font-weight: 600;
+}
+
+/* Figma: style_CH7MF2 — Inter 300, 29px, line-height 1.379 */
+.smaller-banners__square-title {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 29px;
+  line-height: 1.38;
+  text-align: left;
+  color: #000000;
+}
+
+/* Figma: style_OVHW7P — Inter 500, 14px */
+.smaller-banners__square-text {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.714;
+  color: #909090;
+}
+
+/* Figma layout_TCKRDE: padding 44px 264px 44px 56px, height 600 */
+.smaller-banners__big {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1px;
+  padding: 44px 264px 44px 56px;
+  min-height: 600px;
+  background: #ededed;
+  overflow: hidden;
+}
+
+/* Figma: layout_51I979 — Content, column, gap 16px */
+.smaller-banners__big-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 2;
+}
+
+/* Figma: layout_I5GD2Z — Title+Text, gap 16px */
+.smaller-banners__big-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 60%;
+  padding: 0 10px;
+}
+
+/* Figma: style_GPVPJH — Inter 100, 64px, line-height 0.875 */
+.smaller-banners__big-title {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 0.875;
+  color: #000000;
+}
+
+/* Figma: style_OVHW7P */
+.smaller-banners__big-desc {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.714;
+  color: #909090;
+}
+
+/* Figma: layout_0BDDDM — Button Shop Now: padding 16px 56px, border 1px black, radius 6px */
+.smaller-banners__big-btn {
+  .button {
+    padding: 16px 56px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    background: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+  }
+}
+
+/* Figma layout_JSVO9F: MacBook 292×502, absolute x:428 y:49 от левого края Big Banner */
+.smaller-banners__big-image {
+  position: absolute;
+  right: -350px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: right top;
+  }
+}
+
+.banners-section__image--samsung-galaxy {
+  transform: scale(1.5);
+}
+
+.banners-section__image--popular-products {
+  transform: scale(1.5);
+}

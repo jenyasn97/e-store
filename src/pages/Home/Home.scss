@@ -1,0 +1,7 @@
+@use '../../styles/variables' as *;
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

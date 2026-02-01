@@ -1,0 +1,80 @@
+@use '../../styles/variables' as *;
+
+/* Figma layout_AYTS4N: row, stretch, gap 0 */
+.banners-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 0;
+  align-self: stretch;
+}
+
+/* Figma layout_BPZIKM: column, gap 24px, padding 376px 32px 56px */
+.banners-section__item {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 22px 32px 56px;
+  overflow: hidden;
+
+  /* Figma: Popular Products Main/White, Ipad Pro #F9F9F9, Samsung #EAEAEA, Macbook #2C2C2C */
+  &--white { background: #ffffff; }
+  &--light { background: #f9f9f9; }
+  &--gray { background: #eaeaea; }
+  &--dark { background: #2c2c2c; }
+}
+
+/* layout_3A2VKF: column, flex-end, gap 16px */
+.banners-section__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: stretch;
+  gap: 16px;
+}
+
+/* style_LNR7KV: Inter 300, 33px, line-height 1.45, LEFT */
+.banners-section__title {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 1.4545454545;
+  color: #000000;
+
+  &--white { color: #ffffff; }
+}
+
+.banners-section__title-accent { font-weight: 600; }
+
+/* style_R0YRKU: Inter 500, 14px, line-height 1.71, fill_18TLF6 #909090 */
+.banners-section__text {
+  margin: 0;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7142857143;
+  color: #909090;
+}
+
+/* Figma layout_BL0I2Z: absolute, top 22px, 360×327 */
+.banners-section__image {
+  width: 100%;
+  height: 366px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /* Точечная настройка scale: .banners-section__image--popular-products img { transform: scale(2); } */
+}

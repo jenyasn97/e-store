@@ -1,0 +1,74 @@
+@use '../../styles/variables' as *;
+
+/* Figma: Stroke — layout_1D9AS7 (padding 16px 56px, gap 8px, radius 6px, style_3S0NV4)
+   Fill Small — layout_55P4RS (padding 12px 64px, gap 8px, radius 8px, style_1PUEON) */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: opacity 0.2s, background 0.2s, color 0.2s, border-color 0.2s;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+
+  /* layout_1D9AS7: Shop Now (White/Black Stroke) */
+  &--default {
+    padding: 16px 56px;
+    min-height: 56px;
+  }
+
+  /* layout_55P4RS: Buy Now (Fill Small) */
+  &--small {
+    padding: 12px 64px;
+    min-height: 48px;
+    font-size: 14px;
+    line-height: 1.7142857143;
+    border-radius: 8px;
+  }
+
+  /* White Stroke — Banner, Summer, BannersSection dark */
+  &--white-stroke {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      opacity: 1;
+    }
+  }
+
+  /* Black Stroke — MacBook, BannersSection light */
+  &--black-stroke {
+    background: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+      opacity: 1;
+    }
+  }
+
+  /* Fill Small — Product Card Buy Now */
+  &--fill-small {
+    background: #000000;
+    border: none;
+    color: #ffffff;
+
+    &:hover {
+      background: #333333;
+      opacity: 1;
+    }
+  }
+}
