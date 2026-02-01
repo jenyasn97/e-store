@@ -1,14 +1,21 @@
 import { useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import './Header.scss'
 
 export default function Header() {
   const [searchValue, setSearchValue] = useState('')
+  const { pathname } = useLocation()
+
+  const isActive = (path: string) => {
+    if (path === '/') return pathname === '/'
+    return pathname.startsWith(path)
+  }
 
   return (
     <header className="header">
-      <a href="/" className="header__logo" aria-label="E-Store Home">
+      <Link to="/" className="header__logo" aria-label="E-Store Home">
         <img src="/images/logo.svg" alt="E-Store" width={65} height={23} />
-      </a>
+      </Link>
       <form className="header__search" onSubmit={(e) => { e.preventDefault(); /* search */ }} role="search">
         <img src="/images/search-icon.svg" alt="" width={24} height={24} aria-hidden />
         <input
@@ -21,10 +28,9 @@ export default function Header() {
         />
       </form>
       <nav className="header__nav">
-        <a href="/" className="header__nav-link header__nav-link--active">Home</a>
-        <a href="/about" className="header__nav-link">About</a>
-        <a href="/contact" className="header__nav-link">Contact Us</a>
-        <a href="/blog" className="header__nav-link">Blog</a>
+        <Link to="/" className={`header__nav-link ${isActive('/') && pathname === '/' ? 'header__nav-link--active' : ''}`}>Home</Link>
+        <Link to="/catalog" className={`header__nav-link ${isActive('/catalog') ? 'header__nav-link--active' : ''}`}>Catalog</Link>
+        <Link to="/contact" className="header__nav-link">Contact Us</Link>
       </nav>
       <div className="header__icons">
         <img src="/images/header-icons.svg" alt="" width={144} height={32} />

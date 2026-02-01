@@ -1,0 +1,5666 @@
+{
+  "categories": {
+    "phones": {
+      "name": "Phones",
+      "path": "/catalog/phones"
+    },
+    "tablets": {
+      "name": "Tablets",
+      "path": "/catalog/tablets"
+    },
+    "laptops": {
+      "name": "Laptops",
+      "path": "/catalog/laptops"
+    },
+    "smartwatches": {
+      "name": "Smart Watches",
+      "path": "/catalog/smartwatches"
+    },
+    "headphones": {
+      "name": "Headphones",
+      "path": "/catalog/headphones"
+    },
+    "cameras": {
+      "name": "Cameras",
+      "path": "/catalog/cameras"
+    },
+    "gaming": {
+      "name": "Gaming",
+      "path": "/catalog/gaming"
+    },
+    "accessories": {
+      "name": "Accessories",
+      "path": "/catalog/accessories"
+    }
+  },
+  "brands": {
+    "apple": {
+      "name": "Apple",
+      "path": "/catalog/brands/apple"
+    },
+    "samsung": {
+      "name": "Samsung",
+      "path": "/catalog/brands/samsung"
+    },
+    "sony": {
+      "name": "Sony",
+      "path": "/catalog/brands/sony"
+    },
+    "google": {
+      "name": "Google",
+      "path": "/catalog/brands/google"
+    },
+    "microsoft": {
+      "name": "Microsoft",
+      "path": "/catalog/brands/microsoft"
+    },
+    "bose": {
+      "name": "Bose",
+      "path": "/catalog/brands/bose"
+    },
+    "canon": {
+      "name": "Canon",
+      "path": "/catalog/brands/canon"
+    },
+    "blackmagic": {
+      "name": "Blackmagic",
+      "path": "/catalog/brands/blackmagic"
+    },
+    "nintendo": {
+      "name": "Nintendo",
+      "path": "/catalog/brands/nintendo"
+    },
+    "dell": {
+      "name": "Dell",
+      "path": "/catalog/brands/dell"
+    },
+    "hp": {
+      "name": "HP",
+      "path": "/catalog/brands/hp"
+    }
+  },
+  "products": [
+    {
+      "id": "1",
+      "title": "Apple iPhone 14 Pro Max 128GB Deep Purple",
+      "price": "$1399",
+      "oldPrice": "$1499",
+      "image": "/images/product-iphone.png",
+      "category": "phones",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/phones/apple"
+        }
+      ],
+      "description": "Enhanced capabilities thanks to an enlarged display of 6.7 inches and work without recharging throughout the day. Incredible photos as in weak, yes and in bright light using the new system with two cameras.",
+      "fullDescription": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.7\" Super Retina XDR OLED"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2796 x 1290 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Apple A16 Bionic"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "6 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "128 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "48 MP + 12 MP + 12 MP"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP TrueDepth"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "4323 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "iOS 17"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "240 g"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#F5F5F7",
+        "#E8D5C4",
+        "#3D5A80",
+        "#5E4B8B"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 125,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Alex K.",
+          "rating": 5,
+          "text": "Best phone I've ever owned. The display is incredibly smooth and camera quality is outstanding."
+        },
+        {
+          "author": "Elena V.",
+          "rating": 5,
+          "text": "Stunning design. Zero regrets with this purchase."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Blackmagic Pocket Cinema Camera 6K",
+      "price": "$2535",
+      "image": "/images/product-camera.png",
+      "category": "cameras",
+      "brand": "blackmagic",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Cameras",
+          "path": "/catalog/cameras"
+        },
+        {
+          "label": "Blackmagic",
+          "path": "/catalog/cameras/blackmagic"
+        }
+      ],
+      "description": "Professional cinema camera with 6K Super 35 sensor, 13 stops of dynamic range, and dual native ISO up to 25,600.",
+      "fullDescription": "The Blackmagic Pocket Cinema Camera 6K features a Super 35 sensor with 6144 x 3456 resolution that lets you capture images at up to 6K resolution for digital film work. The larger sensor also gives you shallower depth of field, great low light performance and allows the use of EF photographic lenses.",
+      "specs": {
+        "sensor": {
+          "label": "Sensor",
+          "value": "Super 35 HDR"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "6144 x 3456 (6K)"
+        },
+        "dynamicRange": {
+          "label": "Dynamic Range",
+          "value": "13 Stops"
+        },
+        "iso": {
+          "label": "Dual Native ISO",
+          "value": "400 / 3200"
+        },
+        "mount": {
+          "label": "Lens Mount",
+          "value": "Canon EF"
+        },
+        "recording": {
+          "label": "Recording",
+          "value": "Blackmagic RAW, ProRes"
+        },
+        "screen": {
+          "label": "Screen",
+          "value": "5\" Touchscreen LCD"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "CFast 2.0, SD UHS-II, USB-C"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "LP-E6 type"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "899 g"
+        }
+      },
+      "colors": [
+        "#1D1D1F"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 89,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Fiona S.",
+          "rating": 5,
+          "text": "Captures moments perfectly. Worth the investment."
+        },
+        {
+          "author": "Sandra M.",
+          "rating": 5,
+          "text": "Upgraded from DSLR. Mirrorless is the future."
+        },
+        {
+          "author": "George N.",
+          "rating": 4,
+          "text": "Great sensor. IBIS works really well."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Apple Watch Series 9 GPS 41mm Starlight Aluminium",
+      "price": "$399",
+      "image": "/images/product-watch.png",
+      "category": "smartwatches",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Smart Watches",
+          "path": "/catalog/smartwatches"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/smartwatches/apple"
+        }
+      ],
+      "description": "The most advanced Apple Watch with new double tap gesture, powerful S9 chip, and brighter display.",
+      "fullDescription": "Apple Watch Series 9 features the new S9 SiP with 5.6 billion transistors. A new 4-core Neural Engine can process machine learning tasks up to twice as fast. It enables the new double tap gesture, which allows you to control your Apple Watch without touching the display.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "41mm Always-On Retina LTPO OLED"
+        },
+        "brightness": {
+          "label": "Brightness",
+          "value": "2000 nits"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "S9 SiP with 64-bit dual-core processor"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "64 GB"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "50 meters"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 18 hours"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "GPS, Wi-Fi, Bluetooth 5.3"
+        },
+        "sensors": {
+          "label": "Sensors",
+          "value": "Blood oxygen, ECG, Heart rate, Temperature"
+        },
+        "os": {
+          "label": "OS",
+          "value": "watchOS 10"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "31.9 g"
+        }
+      },
+      "colors": [
+        "#F5F5F0",
+        "#1D1D1F",
+        "#FFD1DC",
+        "#C4D4E0"
+      ],
+      "sizeOptions": [
+        "41mm",
+        "45mm"
+      ],
+      "rating": 5,
+      "reviewsCount": 234,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Amy L.",
+          "rating": 4,
+          "text": "Accurate heart rate monitoring. Comfortable to wear."
+        },
+        {
+          "author": "Mike R.",
+          "rating": 4,
+          "text": "Great fitness companion. Battery could be better."
+        },
+        {
+          "author": "Amy L.",
+          "rating": 4,
+          "text": "Accurate heart rate monitoring. Comfortable to wear."
+        },
+        {
+          "author": "Mike R.",
+          "rating": 4,
+          "text": "Great fitness companion. Battery could be better."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Apple iPhone 14 Pro 512GB Gold",
+      "price": "$1437",
+      "oldPrice": "$1599",
+      "image": "/images/product-iphone-gold.png",
+      "category": "phones",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/phones/apple"
+        }
+      ],
+      "description": "Premium iPhone 14 Pro with 512GB storage in stunning Gold finish. Features A16 Bionic chip and Pro camera system.",
+      "fullDescription": "iPhone 14 Pro. Capture incredible detail with a 48MP Main camera. Experience iPhone in a whole new way with Dynamic Island and an Always-On display. And get peace of mind with groundbreaking safety features.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.1\" Super Retina XDR OLED"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2556 x 1179 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Apple A16 Bionic"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "6 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "512 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "48 MP + 12 MP + 12 MP"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP TrueDepth"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "3200 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "iOS 17"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "206 g"
+        }
+      },
+      "colors": [
+        "#FFD700",
+        "#1D1D1F",
+        "#F5F5F7",
+        "#5E4B8B"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 198,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Sophie M.",
+          "rating": 5,
+          "text": "Perfect for work and entertainment. Love the camera!"
+        },
+        {
+          "author": "Mark W.",
+          "rating": 4,
+          "text": "Great value. Only minor complaints about weight."
+        },
+        {
+          "author": "Maria S.",
+          "rating": 5,
+          "text": "Upgraded from older model and the difference is massive. Battery lasts all day."
+        },
+        {
+          "author": "David L.",
+          "rating": 4,
+          "text": "Excellent performance. Runs flawlessly."
+        },
+        {
+          "author": "Anna P.",
+          "rating": 5,
+          "text": "Worth every penny. Exceeded all expectations."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "AirPods Max Silver Starlight Aluminium",
+      "price": "$549",
+      "image": "/images/product-airpods.png",
+      "category": "headphones",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/headphones/apple"
+        }
+      ],
+      "description": "High-fidelity audio with computational audio for immersive listening. Active Noise Cancellation and Transparency mode.",
+      "fullDescription": "AirPods Max combine a custom acoustic design, H1 chips, and advanced software to create the ultimate personal listening experience. Using computational audio for a breakthrough in sound quality, Active Noise Cancellation to block out the world, and Transparency mode.",
+      "specs": {
+        "driver": {
+          "label": "Driver",
+          "value": "Apple-designed dynamic driver"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple H1 (x2)"
+        },
+        "anc": {
+          "label": "Active Noise Cancellation",
+          "value": "Yes"
+        },
+        "transparency": {
+          "label": "Transparency Mode",
+          "value": "Yes"
+        },
+        "spatialAudio": {
+          "label": "Spatial Audio",
+          "value": "Yes with head tracking"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "20 hours"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.0"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "384.8 g"
+        },
+        "case": {
+          "label": "Case",
+          "value": "Smart Case included"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Digital Crown, Noise Control button"
+        }
+      },
+      "colors": [
+        "#C0C0C0",
+        "#4A4A4A",
+        "#87CEEB",
+        "#FFB6C1",
+        "#90EE90"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 312,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        },
+        {
+          "author": "Jake R.",
+          "rating": 4,
+          "text": "Great value. Comfortable for gaming too."
+        },
+        {
+          "author": "Laura D.",
+          "rating": 4,
+          "text": "Great headphones. Slightly heavy after long sessions."
+        },
+        {
+          "author": "Ben H.",
+          "rating": 4,
+          "text": "Solid build. Bass could be a bit punchier."
+        },
+        {
+          "author": "Emily T.",
+          "rating": 5,
+          "text": "Best noise cancellation I've experienced. Sound is amazing."
+        },
+        {
+          "author": "Matt G.",
+          "rating": 5,
+          "text": "Spatial Audio is mind-blowing. Worth every cent."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Samsung Galaxy Z Fold5 256GB Phantom Black",
+      "price": "$1799",
+      "image": "/images/product-fold.png",
+      "category": "phones",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/phones/samsung"
+        }
+      ],
+      "description": "Unfold your world with the Galaxy Z Fold5. Features a large 7.6\" display when unfolded and powerful Snapdragon 8 Gen 2.",
+      "fullDescription": "Galaxy Z Fold5 is the ultimate device for those who want to do more. Unfold to a stunning 7.6\" Infinity Flex Display for immersive entertainment and powerful multitasking. The Flex Mode lets you use the phone hands-free at different angles.",
+      "specs": {
+        "mainScreen": {
+          "label": "Main Screen",
+          "value": "7.6\" Dynamic AMOLED 2X, 120Hz"
+        },
+        "coverScreen": {
+          "label": "Cover Screen",
+          "value": "6.2\" Dynamic AMOLED 2X, 120Hz"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2176 x 1812 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Snapdragon 8 Gen 2 for Galaxy"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "12 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "256 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "50 MP + 12 MP + 10 MP"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "4400 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Android 14, One UI 6"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "253 g"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#F5F5DC",
+        "#E6E6FA"
+      ],
+      "storageOptions": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.4,
+      "reviewsCount": 156,
+      "inStock": true,
+      "liked": true,
+      "comments": [
+        {
+          "author": "Sophie M.",
+          "rating": 5,
+          "text": "Perfect for work and entertainment. Love the camera!"
+        },
+        {
+          "author": "Mark W.",
+          "rating": 4,
+          "text": "Great value. Only minor complaints about weight."
+        },
+        {
+          "author": "Maria S.",
+          "rating": 5,
+          "text": "Upgraded from older model and the difference is massive. Battery lasts all day."
+        },
+        {
+          "author": "David L.",
+          "rating": 4,
+          "text": "Excellent performance. Runs flawlessly."
+        },
+        {
+          "author": "Anna P.",
+          "rating": 5,
+          "text": "Worth every penny. Exceeded all expectations."
+        },
+        {
+          "author": "Alex K.",
+          "rating": 5,
+          "text": "Best phone I've ever owned. The display is incredibly smooth and camera quality is outstanding."
+        },
+        {
+          "author": "Elena V.",
+          "rating": 5,
+          "text": "Stunning design. Zero regrets with this purchase."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Samsung Galaxy Buds FE Graphite",
+      "price": "$99.99",
+      "image": "/images/product-buds.png",
+      "category": "headphones",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/headphones/samsung"
+        }
+      ],
+      "description": "Premium sound quality with Active Noise Cancellation. Comfortable fit for all-day wear.",
+      "fullDescription": "Galaxy Buds FE feature powerful sound with deep bass and clear treble. Active Noise Cancellation blocks unwanted noise so you can focus on your music. The comfortable ergonomic design lets you wear them all day.",
+      "specs": {
+        "driver": {
+          "label": "Driver",
+          "value": "12mm 1-way speaker"
+        },
+        "anc": {
+          "label": "Active Noise Cancellation",
+          "value": "Yes"
+        },
+        "ambient": {
+          "label": "Ambient Sound",
+          "value": "Yes"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "6h (21h with case)"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.2"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "IPX2"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "5.6 g per earbud"
+        },
+        "codec": {
+          "label": "Codec",
+          "value": "Samsung Scalable Codec, AAC, SBC"
+        },
+        "microphones": {
+          "label": "Microphones",
+          "value": "3 mics + VPU"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Touch controls"
+        }
+      },
+      "colors": [
+        "#4A4A4A",
+        "#FFFFFF"
+      ],
+      "rating": 4.4,
+      "reviewsCount": 89,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Olivia P.",
+          "rating": 5,
+          "text": "Perfect for music and calls. Battery lasts forever."
+        },
+        {
+          "author": "Nick S.",
+          "rating": 5,
+          "text": "Comfortable for all-day wear. Audio quality is stellar."
+        },
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        },
+        {
+          "author": "Jake R.",
+          "rating": 4,
+          "text": "Great value. Comfortable for gaming too."
+        },
+        {
+          "author": "Laura D.",
+          "rating": 4,
+          "text": "Great headphones. Slightly heavy after long sessions."
+        },
+        {
+          "author": "Ben H.",
+          "rating": 4,
+          "text": "Solid build. Bass could be a bit punchier."
+        },
+        {
+          "author": "Emily T.",
+          "rating": 5,
+          "text": "Best noise cancellation I've experienced. Sound is amazing."
+        },
+        {
+          "author": "Matt G.",
+          "rating": 5,
+          "text": "Spatial Audio is mind-blowing. Worth every cent."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Apple iPad 9 10.2\" 64GB Wi-Fi Silver",
+      "price": "$398",
+      "oldPrice": "$449",
+      "image": "/images/product-ipad.png",
+      "category": "tablets",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Tablets",
+          "path": "/catalog/tablets"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/tablets/apple"
+        }
+      ],
+      "description": "Powerful A13 Bionic chip with Neural Engine. Perfect for work, learning, and entertainment.",
+      "fullDescription": "iPad delivers a powerful experience at an incredible value. With the A13 Bionic chip, amazing display, and advanced cameras, it's ready for whatever you want to do. Whether you're working, learning, or playing.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "10.2\" Retina IPS LCD"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2160 x 1620 pixels"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple A13 Bionic"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "64 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "8 MP Wide"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP Ultra Wide"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 10 hours"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Wi-Fi 802.11ac"
+        },
+        "os": {
+          "label": "OS",
+          "value": "iPadOS 17"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "487 g"
+        }
+      },
+      "colors": [
+        "#C0C0C0",
+        "#4A4A4A"
+      ],
+      "storageOptions": [
+        "64GB",
+        "256GB"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 412,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Emma G.",
+          "rating": 4,
+          "text": "Smooth performance. Perfect size for reading."
+        },
+        {
+          "author": "Jack M.",
+          "rating": 5,
+          "text": "Premium feel. Worth the investment."
+        },
+        {
+          "author": "Nina K.",
+          "rating": 4,
+          "text": "Great tablet for students. Battery life is impressive."
+        },
+        {
+          "author": "Leo F.",
+          "rating": 5,
+          "text": "Best tablet in its class. Highly recommend."
+        },
+        {
+          "author": "Zoe R.",
+          "rating": 4,
+          "text": "Excellent for productivity. Multitasking is smooth."
+        },
+        {
+          "author": "Oscar D.",
+          "rating": 5,
+          "text": "Replaced my laptop for light work. Love it!"
+        },
+        {
+          "author": "Ivy S.",
+          "rating": 4,
+          "text": "Great for streaming and browsing. No lag at all."
+        },
+        {
+          "author": "Tom H.",
+          "rating": 5,
+          "text": "Perfect for drawing and note-taking. Display is gorgeous."
+        },
+        {
+          "author": "Emma G.",
+          "rating": 4,
+          "text": "Smooth performance. Perfect size for reading."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Samsung Galaxy Watch6 Classic 47mm Black",
+      "price": "$369",
+      "image": "/images/product-galaxy-watch.png",
+      "category": "smartwatches",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Smart Watches",
+          "path": "/catalog/smartwatches"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/smartwatches/samsung"
+        }
+      ],
+      "description": "Classic design with rotating bezel. Advanced health tracking and fitness features.",
+      "fullDescription": "Galaxy Watch6 Classic brings back the iconic rotating bezel for intuitive navigation. Track your health with advanced sensors including BioActive Sensor for heart rate, blood pressure, and body composition analysis.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "1.5\" Super AMOLED, 480x480"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Exynos W930"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "2 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "16 GB"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "425 mAh"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "5ATM + IP68"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "GPS, Bluetooth 5.3, Wi-Fi"
+        },
+        "sensors": {
+          "label": "Sensors",
+          "value": "BioActive, Accelerometer, Gyro, Barometer"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Wear OS 4, One UI Watch 5"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "59 g"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#C0C0C0"
+      ],
+      "sizeOptions": [
+        "43mm",
+        "47mm"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 178,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Amy L.",
+          "rating": 4,
+          "text": "Accurate heart rate monitoring. Comfortable to wear."
+        },
+        {
+          "author": "Mike R.",
+          "rating": 4,
+          "text": "Great fitness companion. Battery could be better."
+        },
+        {
+          "author": "Amy L.",
+          "rating": 4,
+          "text": "Accurate heart rate monitoring. Comfortable to wear."
+        },
+        {
+          "author": "Mike R.",
+          "rating": 4,
+          "text": "Great fitness companion. Battery could be better."
+        },
+        {
+          "author": "Amy L.",
+          "rating": 4,
+          "text": "Accurate heart rate monitoring. Comfortable to wear."
+        },
+        {
+          "author": "Mike R.",
+          "rating": 4,
+          "text": "Great fitness companion. Battery could be better."
+        },
+        {
+          "author": "Amy L.",
+          "rating": 4,
+          "text": "Accurate heart rate monitoring. Comfortable to wear."
+        },
+        {
+          "author": "Mike R.",
+          "rating": 4,
+          "text": "Great fitness companion. Battery could be better."
+        },
+        {
+          "author": "Amy L.",
+          "rating": 4,
+          "text": "Accurate heart rate monitoring. Comfortable to wear."
+        },
+        {
+          "author": "Mike R.",
+          "rating": 4,
+          "text": "Great fitness companion. Battery could be better."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Apple iPhone 14 Pro 1TB Gold",
+      "price": "$1499",
+      "image": "/images/product-iphone-1tb.png",
+      "category": "phones",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/phones/apple"
+        }
+      ],
+      "description": "Maximum storage iPhone 14 Pro with 1TB. Ideal for professionals and content creators.",
+      "fullDescription": "The ultimate iPhone for professionals. With 1TB of storage, you never have to worry about running out of space for your photos, videos, and apps. The powerful A16 Bionic chip handles everything effortlessly.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.1\" Super Retina XDR OLED"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2556 x 1179 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Apple A16 Bionic"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "6 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "1 TB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "48 MP + 12 MP + 12 MP"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP TrueDepth"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "3200 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "iOS 17"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "206 g"
+        }
+      },
+      "colors": [
+        "#FFD700",
+        "#1D1D1F",
+        "#F5F5F7",
+        "#5E4B8B"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 87,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Sophie M.",
+          "rating": 5,
+          "text": "Perfect for work and entertainment. Love the camera!"
+        },
+        {
+          "author": "Mark W.",
+          "rating": 4,
+          "text": "Great value. Only minor complaints about weight."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "MacBook Pro 14\" M3 Pro 512GB Space Black",
+      "price": "$1999",
+      "image": "/images/macbook-pro-42fce2.png",
+      "category": "laptops",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Laptops",
+          "path": "/catalog/laptops"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/laptops/apple"
+        }
+      ],
+      "description": "Supercharged by M3 Pro chip. Up to 18 hours battery life. Stunning Liquid Retina XDR display.",
+      "fullDescription": "MacBook Pro with M3 Pro delivers exceptional performance for demanding workflows. The 14-inch Liquid Retina XDR display features Extreme Dynamic Range with 1000 nits of sustained brightness. All-day battery life lets you work from anywhere.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "14.2\" Liquid Retina XDR"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "3024 x 1964 pixels"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple M3 Pro 11-core CPU, 14-core GPU"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "18 GB Unified Memory"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "512 GB SSD"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 18 hours"
+        },
+        "ports": {
+          "label": "Ports",
+          "value": "3x Thunderbolt 4, HDMI, SD, MagSafe 3"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "1080p FaceTime HD"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "6-speaker sound system"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "1.61 kg"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#C0C0C0"
+      ],
+      "storageOptions": [
+        "512GB",
+        "1TB",
+        "2TB",
+        "4TB"
+      ],
+      "ramOptions": [
+        "18GB",
+        "36GB"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 256,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Kevin N.",
+          "rating": 4,
+          "text": "Powerful machine. Slightly expensive but worth it."
+        },
+        {
+          "author": "Maya H.",
+          "rating": 5,
+          "text": "Silent operation. No fans running during normal use."
+        },
+        {
+          "author": "Ryan C.",
+          "rating": 5,
+          "text": "Blazing fast. Handles all my creative work effortlessly."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Sony PlayStation 5 Digital Edition",
+      "price": "$449",
+      "image": "/images/playstation-35858b.png",
+      "category": "gaming",
+      "brand": "sony",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Gaming",
+          "path": "/catalog/gaming"
+        },
+        {
+          "label": "Sony",
+          "path": "/catalog/gaming/sony"
+        }
+      ],
+      "description": "Experience lightning-fast loading with ultra-high speed SSD. Stunning 4K graphics and ray tracing.",
+      "fullDescription": "PS5 Digital Edition is an all-digital version of the PS5 console with no disc drive. It offers the same immersive experience with haptic feedback, adaptive triggers, and 3D Audio technology.",
+      "specs": {
+        "cpu": {
+          "label": "CPU",
+          "value": "AMD Zen 2, 8 cores @ 3.5GHz"
+        },
+        "gpu": {
+          "label": "GPU",
+          "value": "AMD RDNA 2, 10.28 TFLOPS"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "16 GB GDDR6"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "825 GB SSD"
+        },
+        "output": {
+          "label": "Video Output",
+          "value": "4K 120Hz, 8K, VRR, HDR"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "Tempest 3D AudioTech"
+        },
+        "ports": {
+          "label": "Ports",
+          "value": "USB-A, USB-C, HDMI 2.1"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Wi-Fi 6, Bluetooth 5.1"
+        },
+        "controller": {
+          "label": "Controller",
+          "value": "DualSense wireless"
+        },
+        "dimensions": {
+          "label": "Dimensions",
+          "value": "390 x 92 x 260 mm"
+        }
+      },
+      "colors": [
+        "#FFFFFF"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 1234,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Mia K.",
+          "rating": 4,
+          "text": "Great value. Quick Resume is handy."
+        },
+        {
+          "author": "Noah B.",
+          "rating": 4,
+          "text": "Great performance. Storage fills up fast."
+        },
+        {
+          "author": "Chloe H.",
+          "rating": 4,
+          "text": "Solid console. Controller feels premium."
+        },
+        {
+          "author": "Jake M.",
+          "rating": 5,
+          "text": "Next-gen gaming is here. Load times are insane."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Apple Vision Pro 256GB",
+      "price": "$3499",
+      "image": "/images/vision-pro-5e8529.png",
+      "category": "accessories",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Accessories",
+          "path": "/catalog/accessories"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/accessories/apple"
+        }
+      ],
+      "description": "Apple's first spatial computer. Seamlessly blends digital content with your physical space.",
+      "fullDescription": "Apple Vision Pro is a revolutionary spatial computer that transforms how you work, collaborate, connect, relive memories, and enjoy entertainment. Navigate using your eyes, hands, and voice with visionOS.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "Micro-OLED, 23M pixels per eye"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple M2 + R1"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "256 GB"
+        },
+        "sensors": {
+          "label": "Sensors",
+          "value": "12 cameras, 5 sensors, 6 microphones"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "Spatial Audio with dual drivers"
+        },
+        "tracking": {
+          "label": "Tracking",
+          "value": "Eye, hand, and voice input"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "2 hours (external battery)"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Wi-Fi 6, Bluetooth 5.3"
+        },
+        "os": {
+          "label": "OS",
+          "value": "visionOS"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "600-650 g"
+        }
+      },
+      "colors": [
+        "#F5F5F7"
+      ],
+      "storageOptions": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 67,
+      "inStock": false,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Oliver S.",
+          "rating": 5,
+          "text": "Revolutionary experience. Future of computing."
+        },
+        {
+          "author": "Ella R.",
+          "rating": 4,
+          "text": "Incredible potential. Battery life could improve."
+        },
+        {
+          "author": "Grace L.",
+          "rating": 4,
+          "text": "Impressive tech. Still has room to grow."
+        },
+        {
+          "author": "Mason T.",
+          "rating": 5,
+          "text": "Best tech purchase ever. Truly next-level."
+        },
+        {
+          "author": "Lucas D.",
+          "rating": 5,
+          "text": "Mind-blowing spatial computing. Worth trying."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Apple iPad Pro 12.9\" M2 256GB",
+      "price": "$1099",
+      "image": "/images/ipad-pro-39abee.png",
+      "category": "tablets",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Tablets",
+          "path": "/catalog/tablets"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/tablets/apple"
+        }
+      ],
+      "description": "The ultimate iPad experience with M2 chip, Liquid Retina XDR display, and Apple Pencil hover.",
+      "fullDescription": "iPad Pro features the M2 chip for next-level performance. The stunning Liquid Retina XDR display delivers extreme brightness and contrast. Apple Pencil hover lets you see a preview of your mark before you make it.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "12.9\" Liquid Retina XDR mini-LED"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2732 x 2048 pixels"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple M2"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "8 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "256 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "12 MP Wide + 10 MP Ultra Wide"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP TrueDepth"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 10 hours"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Wi-Fi 6E, 5G optional"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "682 g"
+        }
+      },
+      "colors": [
+        "#C0C0C0",
+        "#4A4A4A"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 289,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Nina K.",
+          "rating": 4,
+          "text": "Great tablet for students. Battery life is impressive."
+        },
+        {
+          "author": "Leo F.",
+          "rating": 5,
+          "text": "Best tablet in its class. Highly recommend."
+        },
+        {
+          "author": "Zoe R.",
+          "rating": 4,
+          "text": "Excellent for productivity. Multitasking is smooth."
+        },
+        {
+          "author": "Oscar D.",
+          "rating": 5,
+          "text": "Replaced my laptop for light work. Love it!"
+        },
+        {
+          "author": "Ivy S.",
+          "rating": 4,
+          "text": "Great for streaming and browsing. No lag at all."
+        },
+        {
+          "author": "Tom H.",
+          "rating": 5,
+          "text": "Perfect for drawing and note-taking. Display is gorgeous."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "AirPods Max Sky Blue",
+      "price": "$549",
+      "image": "/images/airpods-max-71b78d.png",
+      "category": "headphones",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/headphones/apple"
+        }
+      ],
+      "description": "Premium over-ear headphones with breathtaking sound. Active Noise Cancellation and Spatial Audio.",
+      "fullDescription": "AirPods Max reimagine over-ear headphones. An Apple-designed dynamic driver provides high-fidelity audio. Every detail, from canopy to cushions, has been designed for an exceptional acoustic experience.",
+      "specs": {
+        "driver": {
+          "label": "Driver",
+          "value": "Apple-designed 40mm dynamic driver"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple H1 (x2)"
+        },
+        "anc": {
+          "label": "Active Noise Cancellation",
+          "value": "Yes"
+        },
+        "transparency": {
+          "label": "Transparency Mode",
+          "value": "Yes"
+        },
+        "spatialAudio": {
+          "label": "Spatial Audio",
+          "value": "Yes with dynamic head tracking"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "20 hours"
+        },
+        "charging": {
+          "label": "Charging",
+          "value": "Lightning, 5 min = 1.5 hours"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.0"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "384.8 g"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Digital Crown, Noise Control button"
+        }
+      },
+      "colors": [
+        "#87CEEB",
+        "#C0C0C0",
+        "#4A4A4A",
+        "#FFB6C1",
+        "#90EE90"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 445,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Olivia P.",
+          "rating": 5,
+          "text": "Perfect for music and calls. Battery lasts forever."
+        },
+        {
+          "author": "Nick S.",
+          "rating": 5,
+          "text": "Comfortable for all-day wear. Audio quality is stellar."
+        },
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        },
+        {
+          "author": "Jake R.",
+          "rating": 4,
+          "text": "Great value. Comfortable for gaming too."
+        },
+        {
+          "author": "Laura D.",
+          "rating": 4,
+          "text": "Great headphones. Slightly heavy after long sessions."
+        },
+        {
+          "author": "Ben H.",
+          "rating": 4,
+          "text": "Solid build. Bass could be a bit punchier."
+        },
+        {
+          "author": "Emily T.",
+          "rating": 5,
+          "text": "Best noise cancellation I've experienced. Sound is amazing."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Samsung Galaxy S24 Ultra 256GB Titanium Black",
+      "price": "$1299",
+      "image": "/images/samsung-galaxy-7d019b.png",
+      "category": "phones",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/phones/samsung"
+        }
+      ],
+      "description": "Galaxy AI-powered smartphone with 200MP camera. S Pen included. Titanium frame for durability.",
+      "fullDescription": "Galaxy S24 Ultra is Samsung's most powerful smartphone yet. Powered by Galaxy AI for circle to search, live translate, and more. The 200MP camera captures incredible detail, and the titanium frame provides premium durability.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.8\" Dynamic AMOLED 2X, 120Hz"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "3120 x 1440 pixels (QHD+)"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Snapdragon 8 Gen 3 for Galaxy"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "12 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "256 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "200 MP + 12 MP + 50 MP + 10 MP"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "5000 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Android 14, One UI 6.1"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "232 g"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#E5E4E2",
+        "#9370DB",
+        "#FFD700"
+      ],
+      "storageOptions": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 567,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Sophie M.",
+          "rating": 5,
+          "text": "Perfect for work and entertainment. Love the camera!"
+        },
+        {
+          "author": "Mark W.",
+          "rating": 4,
+          "text": "Great value. Only minor complaints about weight."
+        },
+        {
+          "author": "Maria S.",
+          "rating": 5,
+          "text": "Upgraded from older model and the difference is massive. Battery lasts all day."
+        },
+        {
+          "author": "David L.",
+          "rating": 4,
+          "text": "Excellent performance. Runs flawlessly."
+        },
+        {
+          "author": "Anna P.",
+          "rating": 5,
+          "text": "Worth every penny. Exceeded all expectations."
+        },
+        {
+          "author": "Alex K.",
+          "rating": 5,
+          "text": "Best phone I've ever owned. The display is incredibly smooth and camera quality is outstanding."
+        },
+        {
+          "author": "Elena V.",
+          "rating": 5,
+          "text": "Stunning design. Zero regrets with this purchase."
+        },
+        {
+          "author": "Chris R.",
+          "rating": 4,
+          "text": "Solid build quality. Fast and responsive."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Apple iPhone 15 Pro Max 256GB Natural Titanium",
+      "price": "$1199",
+      "image": "/images/product-iphone.png",
+      "category": "phones",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/phones/apple"
+        }
+      ],
+      "description": "Forged in titanium. A17 Pro chip for incredible performance. 5x optical zoom with tetraprism design.",
+      "fullDescription": "iPhone 15 Pro Max features a strong and light titanium design with a textured matte finish. The A17 Pro chip enables powerful experiences and console-quality gaming. The 5x Telephoto camera uses an innovative tetraprism design.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.7\" Super Retina XDR OLED"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2796 x 1290 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Apple A17 Pro"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "8 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "256 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "48 MP + 12 MP + 12 MP (5x zoom)"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP TrueDepth"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "4441 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "iOS 17"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "221 g"
+        }
+      },
+      "colors": [
+        "#E5E4E2",
+        "#1D1D1F",
+        "#F5F5F7",
+        "#4169E1"
+      ],
+      "storageOptions": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 892,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Alex K.",
+          "rating": 5,
+          "text": "Best phone I've ever owned. The display is incredibly smooth and camera quality is outstanding."
+        },
+        {
+          "author": "Elena V.",
+          "rating": 5,
+          "text": "Stunning design. Zero regrets with this purchase."
+        },
+        {
+          "author": "Chris R.",
+          "rating": 4,
+          "text": "Solid build quality. Fast and responsive."
+        },
+        {
+          "author": "Lisa B.",
+          "rating": 5,
+          "text": "Switched from Android and never looked back. Amazing!"
+        },
+        {
+          "author": "James T.",
+          "rating": 4,
+          "text": "Great device but quite heavy. Dynamic Island is a nice touch."
+        },
+        {
+          "author": "Sophie M.",
+          "rating": 5,
+          "text": "Perfect for work and entertainment. Love the camera!"
+        },
+        {
+          "author": "Mark W.",
+          "rating": 4,
+          "text": "Great value. Only minor complaints about weight."
+        },
+        {
+          "author": "Maria S.",
+          "rating": 5,
+          "text": "Upgraded from older model and the difference is massive. Battery lasts all day."
+        },
+        {
+          "author": "David L.",
+          "rating": 4,
+          "text": "Excellent performance. Runs flawlessly."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Sony WH-1000XM5 Wireless Headphones Black",
+      "price": "$349",
+      "image": "/images/product-airpods.png",
+      "category": "headphones",
+      "brand": "sony",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Sony",
+          "path": "/catalog/headphones/sony"
+        }
+      ],
+      "description": "Industry-leading noise cancellation with Auto NC Optimizer. 30-hour battery life. Crystal clear calls.",
+      "fullDescription": "WH-1000XM5 headphones feature industry-leading noise cancellation with two processors controlling eight microphones. Auto NC Optimizer automatically optimizes noise canceling based on your wearing conditions and environment.",
+      "specs": {
+        "driver": {
+          "label": "Driver",
+          "value": "30mm, dome type"
+        },
+        "frequency": {
+          "label": "Frequency",
+          "value": "4Hz - 40,000Hz"
+        },
+        "anc": {
+          "label": "Active Noise Cancellation",
+          "value": "Yes, with 8 microphones"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "30 hours (NC on)"
+        },
+        "charging": {
+          "label": "Fast Charging",
+          "value": "3 min = 3 hours"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.2, Multipoint"
+        },
+        "codec": {
+          "label": "Codec",
+          "value": "LDAC, AAC, SBC"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "250 g"
+        },
+        "foldable": {
+          "label": "Foldable",
+          "value": "No (flat-fold design)"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Touch sensor, buttons"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#C0C0C0"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 1123,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Ben H.",
+          "rating": 4,
+          "text": "Solid build. Bass could be a bit punchier."
+        },
+        {
+          "author": "Emily T.",
+          "rating": 5,
+          "text": "Best noise cancellation I've experienced. Sound is amazing."
+        },
+        {
+          "author": "Matt G.",
+          "rating": 5,
+          "text": "Spatial Audio is mind-blowing. Worth every cent."
+        },
+        {
+          "author": "Olivia P.",
+          "rating": 5,
+          "text": "Perfect for music and calls. Battery lasts forever."
+        },
+        {
+          "author": "Nick S.",
+          "rating": 5,
+          "text": "Comfortable for all-day wear. Audio quality is stellar."
+        },
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        },
+        {
+          "author": "Jake R.",
+          "rating": 4,
+          "text": "Great value. Comfortable for gaming too."
+        },
+        {
+          "author": "Laura D.",
+          "rating": 4,
+          "text": "Great headphones. Slightly heavy after long sessions."
+        },
+        {
+          "author": "Ben H.",
+          "rating": 4,
+          "text": "Solid build. Bass could be a bit punchier."
+        },
+        {
+          "author": "Emily T.",
+          "rating": 5,
+          "text": "Best noise cancellation I've experienced. Sound is amazing."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Canon EOS R6 Mark II Body",
+      "price": "$2499",
+      "image": "/images/product-camera.png",
+      "category": "cameras",
+      "brand": "canon",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Cameras",
+          "path": "/catalog/cameras"
+        },
+        {
+          "label": "Canon",
+          "path": "/catalog/cameras/canon"
+        }
+      ],
+      "description": "Full-frame mirrorless with 24.2MP sensor. Up to 40fps continuous shooting. 6K oversampled 4K video.",
+      "fullDescription": "The EOS R6 Mark II is a hybrid full-frame mirrorless camera that excels in both photography and video. With up to 40fps continuous shooting and subject detection AF, it captures decisive moments with precision.",
+      "specs": {
+        "sensor": {
+          "label": "Sensor",
+          "value": "24.2MP Full-Frame CMOS"
+        },
+        "processor": {
+          "label": "Processor",
+          "value": "DIGIC X"
+        },
+        "iso": {
+          "label": "ISO Range",
+          "value": "100-102,400 (expandable)"
+        },
+        "af": {
+          "label": "AF Points",
+          "value": "1053 zones"
+        },
+        "continuousShooting": {
+          "label": "Continuous",
+          "value": "Up to 40fps (e-shutter)"
+        },
+        "video": {
+          "label": "Video",
+          "value": "4K 60p, 6K RAW"
+        },
+        "stabilization": {
+          "label": "IBIS",
+          "value": "8 stops"
+        },
+        "viewfinder": {
+          "label": "Viewfinder",
+          "value": "3.69M dot OLED EVF"
+        },
+        "screen": {
+          "label": "Screen",
+          "value": "3\" Vari-angle touchscreen"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "670 g (body)"
+        }
+      },
+      "colors": [
+        "#1D1D1F"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 234,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Henry T.",
+          "rating": 4,
+          "text": "Reliable and versatile. Built like a tank."
+        },
+        {
+          "author": "Carlos L.",
+          "rating": 4,
+          "text": "Excellent autofocus. Video quality is superb."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Nintendo Switch OLED Model White",
+      "price": "$349",
+      "image": "/images/playstation-35858b.png",
+      "category": "gaming",
+      "brand": "nintendo",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Gaming",
+          "path": "/catalog/gaming"
+        },
+        {
+          "label": "Nintendo",
+          "path": "/catalog/gaming/nintendo"
+        }
+      ],
+      "description": "7-inch vibrant OLED screen. Enhanced audio. 64GB internal storage. Wide adjustable stand.",
+      "fullDescription": "Nintendo Switch OLED Model features a stunning 7-inch OLED screen with vivid colors and sharp contrast. Whether you play at home or on the go, you'll enjoy an enhanced gaming experience with improved audio.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "7\" OLED, 1280x720"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "NVIDIA Custom Tegra processor"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "64 GB"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "4.5-9 hours"
+        },
+        "modes": {
+          "label": "Play Modes",
+          "value": "TV, Tabletop, Handheld"
+        },
+        "tvOutput": {
+          "label": "TV Output",
+          "value": "Up to 1080p"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Wi-Fi, Bluetooth, LAN (dock)"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "Enhanced speakers"
+        },
+        "stand": {
+          "label": "Stand",
+          "value": "Wide adjustable"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "420 g (with Joy-Con)"
+        }
+      },
+      "colors": [
+        "#FFFFFF",
+        "#FF0000",
+        "#000000"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 2341,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Mia K.",
+          "rating": 4,
+          "text": "Great value. Quick Resume is handy."
+        },
+        {
+          "author": "Noah B.",
+          "rating": 4,
+          "text": "Great performance. Storage fills up fast."
+        },
+        {
+          "author": "Chloe H.",
+          "rating": 4,
+          "text": "Solid console. Controller feels premium."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Google Pixel 8 Pro 128GB Obsidian",
+      "price": "$999",
+      "image": "/images/product-iphone.png",
+      "category": "phones",
+      "brand": "google",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Google",
+          "path": "/catalog/phones/google"
+        }
+      ],
+      "description": "Google Tensor G3 chip. Pro-level camera with 50MP main sensor. 7 years of OS updates.",
+      "fullDescription": "Pixel 8 Pro is Google's most advanced phone yet. The Tensor G3 chip enables new AI features like Best Take and Magic Eraser. The triple camera system captures stunning photos in any light.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.7\" LTPO OLED, 120Hz"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2992 x 1344 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Google Tensor G3"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "12 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "128 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "50 MP + 48 MP + 48 MP"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "10.5 MP"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "5050 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Android 14"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "213 g"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#F5F5F7",
+        "#87CEEB"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 445,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Alex K.",
+          "rating": 5,
+          "text": "Best phone I've ever owned. The display is incredibly smooth and camera quality is outstanding."
+        },
+        {
+          "author": "Elena V.",
+          "rating": 5,
+          "text": "Stunning design. Zero regrets with this purchase."
+        },
+        {
+          "author": "Chris R.",
+          "rating": 4,
+          "text": "Solid build quality. Fast and responsive."
+        },
+        {
+          "author": "Lisa B.",
+          "rating": 5,
+          "text": "Switched from Android and never looked back. Amazing!"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Apple MacBook Air 15\" M3 256GB Midnight",
+      "price": "$1299",
+      "image": "/images/macbook-pro-42fce2.png",
+      "category": "laptops",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Laptops",
+          "path": "/catalog/laptops"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/laptops/apple"
+        }
+      ],
+      "description": "Strikingly thin design. M3 chip for blazing-fast performance. Up to 18 hours battery life.",
+      "fullDescription": "MacBook Air 15\" features the powerful M3 chip in an impossibly thin design. The 15.3\" Liquid Retina display is perfect for all your work and play. Silent, fanless design means no distractions.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "15.3\" Liquid Retina"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2880 x 1864 pixels"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple M3 8-core CPU, 10-core GPU"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "8 GB Unified Memory"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "256 GB SSD"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 18 hours"
+        },
+        "ports": {
+          "label": "Ports",
+          "value": "2x Thunderbolt / USB 4, MagSafe 3"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "1080p FaceTime HD"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "6-speaker sound system"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "1.51 kg"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#C0C0C0",
+        "#F5F5DC",
+        "#4A4A4A"
+      ],
+      "storageOptions": [
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "ramOptions": [
+        "8GB",
+        "16GB",
+        "24GB"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 389,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Diana L.",
+          "rating": 5,
+          "text": "Best laptop I've ever used. Battery is incredible."
+        },
+        {
+          "author": "Brian W.",
+          "rating": 4,
+          "text": "Solid performance. Build quality is top-notch."
+        },
+        {
+          "author": "Claire V.",
+          "rating": 5,
+          "text": "Exceeded expectations. Best purchase this year."
+        },
+        {
+          "author": "Kevin N.",
+          "rating": 4,
+          "text": "Powerful machine. Slightly expensive but worth it."
+        },
+        {
+          "author": "Maya H.",
+          "rating": 5,
+          "text": "Silent operation. No fans running during normal use."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Bose QuietComfort Ultra Headphones Black",
+      "price": "$429",
+      "image": "/images/product-airpods.png",
+      "category": "headphones",
+      "brand": "bose",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Bose",
+          "path": "/catalog/headphones/bose"
+        }
+      ],
+      "description": "World-class noise cancellation. Immersive Audio with head tracking. Up to 24 hours battery.",
+      "fullDescription": "Bose QuietComfort Ultra Headphones deliver best-in-class noise cancellation and breakthrough Immersive Audio. Experience sound that feels like it's coming from all around you.",
+      "specs": {
+        "driver": {
+          "label": "Driver",
+          "value": "Bose custom drivers"
+        },
+        "anc": {
+          "label": "Noise Cancellation",
+          "value": "World-class ANC"
+        },
+        "immersive": {
+          "label": "Immersive Audio",
+          "value": "Yes, with head tracking"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "24 hours"
+        },
+        "charging": {
+          "label": "Fast Charging",
+          "value": "15 min = 2.5 hours"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.3, Multipoint"
+        },
+        "codec": {
+          "label": "Codec",
+          "value": "aptX Adaptive, AAC, SBC"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "250 g"
+        },
+        "microphones": {
+          "label": "Microphones",
+          "value": "6 mics for calls"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Touch, physical buttons"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#FFFFFF",
+        "#F5F5DC"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 567,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Olivia P.",
+          "rating": 5,
+          "text": "Perfect for music and calls. Battery lasts forever."
+        },
+        {
+          "author": "Nick S.",
+          "rating": 5,
+          "text": "Comfortable for all-day wear. Audio quality is stellar."
+        },
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        },
+        {
+          "author": "Jake R.",
+          "rating": 4,
+          "text": "Great value. Comfortable for gaming too."
+        },
+        {
+          "author": "Laura D.",
+          "rating": 4,
+          "text": "Great headphones. Slightly heavy after long sessions."
+        },
+        {
+          "author": "Ben H.",
+          "rating": 4,
+          "text": "Solid build. Bass could be a bit punchier."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Samsung Galaxy Tab S9 Ultra 256GB",
+      "price": "$1199",
+      "image": "/images/product-ipad.png",
+      "category": "tablets",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Tablets",
+          "path": "/catalog/tablets"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/tablets/samsung"
+        }
+      ],
+      "description": "14.6\" Dynamic AMOLED 2X display. Snapdragon 8 Gen 2. S Pen included. IP68 water resistant.",
+      "fullDescription": "Galaxy Tab S9 Ultra is the ultimate Android tablet with its massive 14.6\" display and powerful Snapdragon 8 Gen 2 chip. The included S Pen lets you create, annotate, and navigate with precision.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "14.6\" Dynamic AMOLED 2X, 120Hz"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2960 x 1848 pixels"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Snapdragon 8 Gen 2 for Galaxy"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "12 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "256 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "13 MP + 8 MP Ultra Wide"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP + 12 MP Ultra Wide"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "11200 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Android 14, One UI 6"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "732 g"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#F5F5DC"
+      ],
+      "storageOptions": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 178,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Emma G.",
+          "rating": 4,
+          "text": "Smooth performance. Perfect size for reading."
+        },
+        {
+          "author": "Jack M.",
+          "rating": 5,
+          "text": "Premium feel. Worth the investment."
+        },
+        {
+          "author": "Nina K.",
+          "rating": 4,
+          "text": "Great tablet for students. Battery life is impressive."
+        },
+        {
+          "author": "Leo F.",
+          "rating": 5,
+          "text": "Best tablet in its class. Highly recommend."
+        },
+        {
+          "author": "Zoe R.",
+          "rating": 4,
+          "text": "Excellent for productivity. Multitasking is smooth."
+        },
+        {
+          "author": "Oscar D.",
+          "rating": 5,
+          "text": "Replaced my laptop for light work. Love it!"
+        },
+        {
+          "author": "Ivy S.",
+          "rating": 4,
+          "text": "Great for streaming and browsing. No lag at all."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Dell XPS 15 9530 Intel Core i7 16GB 512GB",
+      "price": "$1499",
+      "image": "/images/macbook-pro-42fce2.png",
+      "category": "laptops",
+      "brand": "dell",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Laptops",
+          "path": "/catalog/laptops"
+        },
+        {
+          "label": "Dell",
+          "path": "/catalog/laptops/dell"
+        }
+      ],
+      "description": "15.6\" OLED 3.5K display. 13th Gen Intel Core i7. NVIDIA GeForce RTX 4060. Premium build quality.",
+      "fullDescription": "Dell XPS 15 combines stunning design with powerful performance. The 3.5K OLED display delivers exceptional color accuracy and contrast. Intel Core i7 and RTX 4060 handle demanding creative workloads.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "15.6\" OLED 3.5K touch"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "3456 x 2160 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Intel Core i7-13700H"
+        },
+        "gpu": {
+          "label": "GPU",
+          "value": "NVIDIA GeForce RTX 4060"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "16 GB DDR5"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "512 GB NVMe SSD"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "86Wh, up to 13 hours"
+        },
+        "ports": {
+          "label": "Ports",
+          "value": "2x Thunderbolt 4, USB-C, SD"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "720p with Windows Hello"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "1.86 kg"
+        }
+      },
+      "colors": [
+        "#C0C0C0"
+      ],
+      "storageOptions": [
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "ramOptions": [
+        "16GB",
+        "32GB",
+        "64GB"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 234,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Ryan C.",
+          "rating": 5,
+          "text": "Blazing fast. Handles all my creative work effortlessly."
+        },
+        {
+          "author": "Rachel T.",
+          "rating": 5,
+          "text": "Perfect for development. Love the display."
+        },
+        {
+          "author": "Paul J.",
+          "rating": 4,
+          "text": "Great for video editing. Renders quickly."
+        },
+        {
+          "author": "Diana L.",
+          "rating": 5,
+          "text": "Best laptop I've ever used. Battery is incredible."
+        },
+        {
+          "author": "Brian W.",
+          "rating": 4,
+          "text": "Solid performance. Build quality is top-notch."
+        },
+        {
+          "author": "Claire V.",
+          "rating": 5,
+          "text": "Exceeded expectations. Best purchase this year."
+        },
+        {
+          "author": "Kevin N.",
+          "rating": 4,
+          "text": "Powerful machine. Slightly expensive but worth it."
+        },
+        {
+          "author": "Maya H.",
+          "rating": 5,
+          "text": "Silent operation. No fans running during normal use."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Apple Watch Ultra 2 49mm Titanium",
+      "price": "$799",
+      "image": "/images/product-watch.png",
+      "category": "smartwatches",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Smart Watches",
+          "path": "/catalog/smartwatches"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/smartwatches/apple"
+        }
+      ],
+      "description": "The most rugged and capable Apple Watch. 3000 nits display. Precision dual-frequency GPS. 36-hour battery.",
+      "fullDescription": "Apple Watch Ultra 2 is designed for exploration, adventure, and endurance. The 49mm titanium case and sapphire crystal display can withstand the toughest conditions. Features include precision GPS, depth gauge, and siren.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "49mm Always-On Retina LTPO OLED"
+        },
+        "brightness": {
+          "label": "Brightness",
+          "value": "3000 nits"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "S9 SiP"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "64 GB"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "100 meters"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 36 hours"
+        },
+        "gps": {
+          "label": "GPS",
+          "value": "Precision dual-frequency L1/L5"
+        },
+        "material": {
+          "label": "Material",
+          "value": "Titanium case, Sapphire crystal"
+        },
+        "os": {
+          "label": "OS",
+          "value": "watchOS 10"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "61.4 g"
+        }
+      },
+      "colors": [
+        "#E5E4E2"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 156,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        },
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        },
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        },
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        },
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        },
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        },
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        },
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        },
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Sony Alpha A7 IV Body",
+      "price": "$2498",
+      "image": "/images/product-camera.png",
+      "category": "cameras",
+      "brand": "sony",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Cameras",
+          "path": "/catalog/cameras"
+        },
+        {
+          "label": "Sony",
+          "path": "/catalog/cameras/sony"
+        }
+      ],
+      "description": "33MP full-frame sensor. Real-time Eye AF for humans and animals. 4K 60p video. 10fps continuous shooting.",
+      "fullDescription": "Sony Alpha A7 IV is a versatile hybrid camera for creators who need excellent stills and video. The 33MP sensor delivers outstanding image quality, while advanced AF tracking ensures sharp subjects in any situation.",
+      "specs": {
+        "sensor": {
+          "label": "Sensor",
+          "value": "33MP Full-Frame Exmor R CMOS"
+        },
+        "processor": {
+          "label": "Processor",
+          "value": "BIONZ XR"
+        },
+        "iso": {
+          "label": "ISO Range",
+          "value": "100-51,200 (expandable)"
+        },
+        "af": {
+          "label": "AF Points",
+          "value": "759 phase-detection"
+        },
+        "continuousShooting": {
+          "label": "Continuous",
+          "value": "10fps"
+        },
+        "video": {
+          "label": "Video",
+          "value": "4K 60p 10-bit 4:2:2"
+        },
+        "stabilization": {
+          "label": "IBIS",
+          "value": "5.5 stops"
+        },
+        "viewfinder": {
+          "label": "Viewfinder",
+          "value": "3.69M dot OLED EVF"
+        },
+        "screen": {
+          "label": "Screen",
+          "value": "3\" Vari-angle touchscreen"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "658 g (body)"
+        }
+      },
+      "colors": [
+        "#1D1D1F"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 312,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "George N.",
+          "rating": 4,
+          "text": "Great sensor. IBIS works really well."
+        },
+        {
+          "author": "Peter F.",
+          "rating": 5,
+          "text": "Pro-level image quality. Low light performance is incredible."
+        },
+        {
+          "author": "Helen K.",
+          "rating": 5,
+          "text": "Best camera for hybrid shooters. Love it!"
+        },
+        {
+          "author": "Henry T.",
+          "rating": 4,
+          "text": "Reliable and versatile. Built like a tank."
+        },
+        {
+          "author": "Carlos L.",
+          "rating": 4,
+          "text": "Excellent autofocus. Video quality is superb."
+        },
+        {
+          "author": "Fiona S.",
+          "rating": 5,
+          "text": "Captures moments perfectly. Worth the investment."
+        },
+        {
+          "author": "Sandra M.",
+          "rating": 5,
+          "text": "Upgraded from DSLR. Mirrorless is the future."
+        },
+        {
+          "author": "George N.",
+          "rating": 4,
+          "text": "Great sensor. IBIS works really well."
+        },
+        {
+          "author": "Peter F.",
+          "rating": 5,
+          "text": "Pro-level image quality. Low light performance is incredible."
+        },
+        {
+          "author": "Helen K.",
+          "rating": 5,
+          "text": "Best camera for hybrid shooters. Love it!"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Microsoft Xbox Series X 1TB",
+      "price": "$499",
+      "image": "/images/playstation-35858b.png",
+      "category": "gaming",
+      "brand": "microsoft",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Gaming",
+          "path": "/catalog/gaming"
+        },
+        {
+          "label": "Microsoft",
+          "path": "/catalog/gaming/microsoft"
+        }
+      ],
+      "description": "The most powerful Xbox ever. 12 teraflops of GPU power. 4K gaming at 120fps. Quick Resume.",
+      "fullDescription": "Xbox Series X delivers 12 teraflops of raw graphic processing power, true 4K gaming, and high frame rate gaming up to 120fps. Experience next-gen speed and performance with the custom SSD.",
+      "specs": {
+        "cpu": {
+          "label": "CPU",
+          "value": "AMD Zen 2, 8 cores @ 3.8GHz"
+        },
+        "gpu": {
+          "label": "GPU",
+          "value": "AMD RDNA 2, 12 TFLOPS"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "16 GB GDDR6"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "1 TB NVMe SSD"
+        },
+        "output": {
+          "label": "Video Output",
+          "value": "4K 120Hz, 8K, VRR, HDR"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "Dolby Atmos, DTS:X"
+        },
+        "discDrive": {
+          "label": "Disc Drive",
+          "value": "4K UHD Blu-ray"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Wi-Fi 5, Ethernet, Bluetooth"
+        },
+        "controller": {
+          "label": "Controller",
+          "value": "Xbox Wireless Controller"
+        },
+        "dimensions": {
+          "label": "Dimensions",
+          "value": "151 x 151 x 301 mm"
+        }
+      },
+      "colors": [
+        "#1D1D1F"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 1567,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Mia K.",
+          "rating": 4,
+          "text": "Great value. Quick Resume is handy."
+        },
+        {
+          "author": "Noah B.",
+          "rating": 4,
+          "text": "Great performance. Storage fills up fast."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Samsung Galaxy Watch6 40mm Pink Gold",
+      "price": "$299",
+      "image": "/images/product-galaxy-watch.png",
+      "category": "smartwatches",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Smart Watches",
+          "path": "/catalog/smartwatches"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/smartwatches/samsung"
+        }
+      ],
+      "description": "Slim and lightweight design. Advanced sleep coaching. BioActive Sensor for comprehensive health tracking.",
+      "fullDescription": "Galaxy Watch6 features a slimmer bezel for a larger display in a compact size. Track your wellness with advanced sensors and get personalized sleep coaching to improve your rest.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "1.3\" Super AMOLED, 432x432"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Exynos W930"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "2 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "16 GB"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "300 mAh"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "5ATM + IP68"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "GPS, Bluetooth 5.3, Wi-Fi"
+        },
+        "sensors": {
+          "label": "Sensors",
+          "value": "BioActive, Accelerometer, Gyro"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Wear OS 4, One UI Watch 5"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "28.7 g"
+        }
+      },
+      "colors": [
+        "#FFD700",
+        "#1D1D1F",
+        "#C0C0C0"
+      ],
+      "sizeOptions": [
+        "40mm",
+        "44mm"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 245,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        },
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        },
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Apple AirPods Pro 2nd Gen USB-C",
+      "price": "$249",
+      "image": "/images/product-buds.png",
+      "category": "headphones",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/headphones/apple"
+        }
+      ],
+      "description": "2x more Active Noise Cancellation. Adaptive Audio. Personalized Spatial Audio. USB-C charging case.",
+      "fullDescription": "AirPods Pro feature the Apple H2 chip for smarter noise cancellation and immersive sound. Adaptive Audio dynamically blends Transparency mode and Active Noise Cancellation. Now with USB-C charging.",
+      "specs": {
+        "chip": {
+          "label": "Chip",
+          "value": "Apple H2"
+        },
+        "anc": {
+          "label": "Active Noise Cancellation",
+          "value": "2x more effective"
+        },
+        "adaptiveAudio": {
+          "label": "Adaptive Audio",
+          "value": "Yes"
+        },
+        "spatialAudio": {
+          "label": "Spatial Audio",
+          "value": "Personalized with head tracking"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "6h (30h with case)"
+        },
+        "charging": {
+          "label": "Charging",
+          "value": "USB-C, MagSafe, Qi wireless"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "IP54"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Force sensor, swipe volume"
+        },
+        "case": {
+          "label": "Case Features",
+          "value": "Find My, speaker, lanyard loop"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "5.3 g per earbud"
+        }
+      },
+      "colors": [
+        "#FFFFFF"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 2345,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Nick S.",
+          "rating": 5,
+          "text": "Comfortable for all-day wear. Audio quality is stellar."
+        },
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        },
+        {
+          "author": "Jake R.",
+          "rating": 4,
+          "text": "Great value. Comfortable for gaming too."
+        },
+        {
+          "author": "Laura D.",
+          "rating": 4,
+          "text": "Great headphones. Slightly heavy after long sessions."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "HP Spectre x360 14\" Intel Core Ultra 7 16GB 1TB",
+      "price": "$1649",
+      "image": "/images/macbook-pro-42fce2.png",
+      "category": "laptops",
+      "brand": "hp",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Laptops",
+          "path": "/catalog/laptops"
+        },
+        {
+          "label": "HP",
+          "path": "/catalog/laptops/hp"
+        }
+      ],
+      "description": "2-in-1 convertible with OLED display. Intel Core Ultra 7 with NPU. 360° hinge. Included stylus.",
+      "fullDescription": "HP Spectre x360 combines stunning OLED display with powerful Intel Core Ultra processor featuring built-in AI acceleration. The 360° hinge lets you use it as a laptop, tablet, or tent mode.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "14\" 2.8K OLED touch, 120Hz"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2880 x 1800 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Intel Core Ultra 7 155H"
+        },
+        "gpu": {
+          "label": "GPU",
+          "value": "Intel Arc Graphics"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "16 GB LPDDR5X"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "1 TB NVMe SSD"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "Up to 15 hours"
+        },
+        "ports": {
+          "label": "Ports",
+          "value": "2x Thunderbolt 4, USB-A, microSD"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "5MP IR with privacy shutter"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "1.44 kg"
+        }
+      },
+      "colors": [
+        "#2F4F4F",
+        "#C0C0C0"
+      ],
+      "storageOptions": [
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "ramOptions": [
+        "16GB",
+        "32GB"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 189,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Paul J.",
+          "rating": 4,
+          "text": "Great for video editing. Renders quickly."
+        },
+        {
+          "author": "Diana L.",
+          "rating": 5,
+          "text": "Best laptop I've ever used. Battery is incredible."
+        },
+        {
+          "author": "Brian W.",
+          "rating": 4,
+          "text": "Solid performance. Build quality is top-notch."
+        },
+        {
+          "author": "Claire V.",
+          "rating": 5,
+          "text": "Exceeded expectations. Best purchase this year."
+        },
+        {
+          "author": "Kevin N.",
+          "rating": 4,
+          "text": "Powerful machine. Slightly expensive but worth it."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Samsung Galaxy S24 128GB Onyx Black",
+      "price": "$799",
+      "image": "/images/product-iphone.png",
+      "category": "phones",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/phones/samsung"
+        }
+      ],
+      "description": "Galaxy AI features. 50MP camera. Armor Aluminum frame. 7 years of OS updates.",
+      "fullDescription": "Galaxy S24 brings Galaxy AI to everyone. Circle to Search, Live Translate, and Chat Assist make your phone smarter than ever. The durable Armor Aluminum frame protects your investment.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.2\" Dynamic AMOLED 2X, 120Hz"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2340 x 1080 pixels (FHD+)"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Exynos 2400"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "8 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "128 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "50 MP + 12 MP + 10 MP"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "4000 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Android 14, One UI 6.1"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "167 g"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#E5E4E2",
+        "#9370DB",
+        "#FFD700"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 423,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Sophie M.",
+          "rating": 5,
+          "text": "Perfect for work and entertainment. Love the camera!"
+        },
+        {
+          "author": "Mark W.",
+          "rating": 4,
+          "text": "Great value. Only minor complaints about weight."
+        },
+        {
+          "author": "Maria S.",
+          "rating": 5,
+          "text": "Upgraded from older model and the difference is massive. Battery lasts all day."
+        },
+        {
+          "author": "David L.",
+          "rating": 4,
+          "text": "Excellent performance. Runs flawlessly."
+        },
+        {
+          "author": "Anna P.",
+          "rating": 5,
+          "text": "Worth every penny. Exceeded all expectations."
+        },
+        {
+          "author": "Alex K.",
+          "rating": 5,
+          "text": "Best phone I've ever owned. The display is incredibly smooth and camera quality is outstanding."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Apple iPad Air 11\" M2 128GB Space Gray",
+      "price": "$599",
+      "image": "/images/product-ipad.png",
+      "category": "tablets",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Tablets",
+          "path": "/catalog/tablets"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/tablets/apple"
+        }
+      ],
+      "description": "Supercharged by M2. Liquid Retina display. Apple Pencil Pro support. All-day battery life.",
+      "fullDescription": "iPad Air brings serious power in a thin and light design. The M2 chip delivers next-level performance for demanding apps and games. Support for Apple Pencil Pro unlocks new creative possibilities.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "11\" Liquid Retina IPS"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2360 x 1640 pixels"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple M2"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "8 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "128 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "12 MP Wide"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP Landscape Ultra Wide"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 10 hours"
+        },
+        "os": {
+          "label": "OS",
+          "value": "iPadOS 17"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "462 g"
+        }
+      },
+      "colors": [
+        "#4A4A4A",
+        "#C0C0C0",
+        "#E0B0FF",
+        "#4682B4",
+        "#F5F5DC"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 312,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Tom H.",
+          "rating": 5,
+          "text": "Perfect for drawing and note-taking. Display is gorgeous."
+        },
+        {
+          "author": "Emma G.",
+          "rating": 4,
+          "text": "Smooth performance. Perfect size for reading."
+        },
+        {
+          "author": "Jack M.",
+          "rating": 5,
+          "text": "Premium feel. Worth the investment."
+        },
+        {
+          "author": "Nina K.",
+          "rating": 4,
+          "text": "Great tablet for students. Battery life is impressive."
+        },
+        {
+          "author": "Leo F.",
+          "rating": 5,
+          "text": "Best tablet in its class. Highly recommend."
+        },
+        {
+          "author": "Zoe R.",
+          "rating": 4,
+          "text": "Excellent for productivity. Multitasking is smooth."
+        },
+        {
+          "author": "Oscar D.",
+          "rating": 5,
+          "text": "Replaced my laptop for light work. Love it!"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Sony PlayStation 5 Slim 1TB Disc Edition",
+      "price": "$499",
+      "image": "/images/playstation-35858b.png",
+      "category": "gaming",
+      "brand": "sony",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Gaming",
+          "path": "/catalog/gaming"
+        },
+        {
+          "label": "Sony",
+          "path": "/catalog/gaming/sony"
+        }
+      ],
+      "description": "30% smaller design. 1TB SSD storage. Ultra HD Blu-ray drive. All the power of PS5.",
+      "fullDescription": "PS5 Slim delivers the same incredible gaming experience in a more compact design. The 1TB SSD gives you more room for games. Enjoy 4K gaming, ray tracing, and ultra-high speed loading.",
+      "specs": {
+        "cpu": {
+          "label": "CPU",
+          "value": "AMD Zen 2, 8 cores @ 3.5GHz"
+        },
+        "gpu": {
+          "label": "GPU",
+          "value": "AMD RDNA 2, 10.28 TFLOPS"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "16 GB GDDR6"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "1 TB SSD"
+        },
+        "output": {
+          "label": "Video Output",
+          "value": "4K 120Hz, 8K, VRR, HDR"
+        },
+        "discDrive": {
+          "label": "Disc Drive",
+          "value": "4K Ultra HD Blu-ray"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "Tempest 3D AudioTech"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Wi-Fi 6, Bluetooth 5.1"
+        },
+        "controller": {
+          "label": "Controller",
+          "value": "DualSense wireless"
+        },
+        "dimensions": {
+          "label": "Dimensions",
+          "value": "358 x 80 x 216 mm"
+        }
+      },
+      "colors": [
+        "#FFFFFF"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 567,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Chloe H.",
+          "rating": 4,
+          "text": "Solid console. Controller feels premium."
+        },
+        {
+          "author": "Jake M.",
+          "rating": 5,
+          "text": "Next-gen gaming is here. Load times are insane."
+        },
+        {
+          "author": "Ava C.",
+          "rating": 5,
+          "text": "Haptic feedback is a game-changer. Love it!"
+        },
+        {
+          "author": "Ethan P.",
+          "rating": 5,
+          "text": "Best purchase for my gaming setup. No regrets."
+        },
+        {
+          "author": "Lily R.",
+          "rating": 5,
+          "text": "Best console I've owned. Games look stunning."
+        },
+        {
+          "author": "Liam W.",
+          "rating": 5,
+          "text": "Exceeded all expectations. 4K gaming is smooth."
+        },
+        {
+          "author": "Mia K.",
+          "rating": 4,
+          "text": "Great value. Quick Resume is handy."
+        },
+        {
+          "author": "Noah B.",
+          "rating": 4,
+          "text": "Great performance. Storage fills up fast."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Google Pixel Watch 2 41mm Polished Silver",
+      "price": "$349",
+      "image": "/images/product-watch.png",
+      "category": "smartwatches",
+      "brand": "google",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Smart Watches",
+          "path": "/catalog/smartwatches"
+        },
+        {
+          "label": "Google",
+          "path": "/catalog/smartwatches/google"
+        }
+      ],
+      "description": "Fitbit health and fitness. Safety features. Google AI assistance. Beautiful domed design.",
+      "fullDescription": "Pixel Watch 2 combines the best of Google and Fitbit. Track your heart rate, stress, and sleep. Get help from Google Assistant. Stay connected with calls, texts, and notifications.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "1.2\" AMOLED, 320 PPI"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Qualcomm SW5100"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "2 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "32 GB"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "24 hours"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "5ATM"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "GPS, Bluetooth 5.0, Wi-Fi"
+        },
+        "sensors": {
+          "label": "Sensors",
+          "value": "Heart rate, SpO2, EDA, ECG"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Wear OS 4"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "31 g"
+        }
+      },
+      "colors": [
+        "#C0C0C0",
+        "#1D1D1F",
+        "#F5F5DC"
+      ],
+      "rating": 4.5,
+      "reviewsCount": 189,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        },
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        },
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        },
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        },
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        },
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        },
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        },
+        {
+          "author": "Steve B.",
+          "rating": 5,
+          "text": "GPS works perfectly for runs. Highly recommend."
+        },
+        {
+          "author": "Julia K.",
+          "rating": 5,
+          "text": "Replaced my old watch. So many useful features!"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Apple iPhone 15 128GB Pink",
+      "price": "$799",
+      "image": "/images/product-iphone.png",
+      "category": "phones",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/phones/apple"
+        }
+      ],
+      "description": "Dynamic Island. 48MP camera. USB-C. A16 Bionic chip. All-day battery life.",
+      "fullDescription": "iPhone 15 features Dynamic Island, a magical new way to interact with iPhone. The 48MP Main camera captures stunning photos with incredible detail. USB-C makes charging more convenient than ever.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.1\" Super Retina XDR OLED"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2556 x 1179 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Apple A16 Bionic"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "6 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "128 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "48 MP + 12 MP"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP TrueDepth"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "3349 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "iOS 17"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "171 g"
+        }
+      },
+      "colors": [
+        "#FFB6C1",
+        "#1D1D1F",
+        "#FFD700",
+        "#87CEEB",
+        "#90EE90"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB",
+        "512GB"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 678,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Sophie M.",
+          "rating": 5,
+          "text": "Perfect for work and entertainment. Love the camera!"
+        },
+        {
+          "author": "Mark W.",
+          "rating": 4,
+          "text": "Great value. Only minor complaints about weight."
+        },
+        {
+          "author": "Maria S.",
+          "rating": 5,
+          "text": "Upgraded from older model and the difference is massive. Battery lasts all day."
+        },
+        {
+          "author": "David L.",
+          "rating": 4,
+          "text": "Excellent performance. Runs flawlessly."
+        },
+        {
+          "author": "Anna P.",
+          "rating": 5,
+          "text": "Worth every penny. Exceeded all expectations."
+        },
+        {
+          "author": "Alex K.",
+          "rating": 5,
+          "text": "Best phone I've ever owned. The display is incredibly smooth and camera quality is outstanding."
+        },
+        {
+          "author": "Elena V.",
+          "rating": 5,
+          "text": "Stunning design. Zero regrets with this purchase."
+        },
+        {
+          "author": "Chris R.",
+          "rating": 4,
+          "text": "Solid build quality. Fast and responsive."
+        },
+        {
+          "author": "Lisa B.",
+          "rating": 5,
+          "text": "Switched from Android and never looked back. Amazing!"
+        },
+        {
+          "author": "James T.",
+          "rating": 4,
+          "text": "Great device but quite heavy. Dynamic Island is a nice touch."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Bose QuietComfort Ultra Earbuds Black",
+      "price": "$299",
+      "image": "/images/product-buds.png",
+      "category": "headphones",
+      "brand": "bose",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Bose",
+          "path": "/catalog/headphones/bose"
+        }
+      ],
+      "description": "World-class noise cancellation in an earbud. Immersive Audio. CustomTune technology.",
+      "fullDescription": "Bose QuietComfort Ultra Earbuds deliver breakthrough sound with world-class noise cancellation. CustomTune technology automatically adjusts the sound profile to your ear shape.",
+      "specs": {
+        "driver": {
+          "label": "Driver",
+          "value": "Bose custom drivers"
+        },
+        "anc": {
+          "label": "Noise Cancellation",
+          "value": "World-class ANC"
+        },
+        "immersive": {
+          "label": "Immersive Audio",
+          "value": "Yes"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "6h (24h with case)"
+        },
+        "charging": {
+          "label": "Charging",
+          "value": "USB-C, Qi wireless"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.3, Multipoint"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "IPX4"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Touch, swipe"
+        },
+        "case": {
+          "label": "Case",
+          "value": "Wireless charging case"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "6.24 g per earbud"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#FFFFFF"
+      ],
+      "rating": 4.5,
+      "reviewsCount": 234,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        },
+        {
+          "author": "Jake R.",
+          "rating": 4,
+          "text": "Great value. Comfortable for gaming too."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Apple Mac mini M2 256GB",
+      "price": "$599",
+      "image": "/images/macbook-pro-42fce2.png",
+      "category": "laptops",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Laptops",
+          "path": "/catalog/laptops"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/laptops/apple"
+        }
+      ],
+      "description": "Desktop power in an ultracompact design. M2 chip. Versatile connectivity. Silent operation.",
+      "fullDescription": "Mac mini with M2 delivers remarkable performance in an incredibly compact design. Connect to any display and peripherals. Perfect for offices, studios, and creative spaces.",
+      "specs": {
+        "chip": {
+          "label": "Chip",
+          "value": "Apple M2 8-core CPU, 10-core GPU"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "8 GB Unified Memory"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "256 GB SSD"
+        },
+        "ports": {
+          "label": "Ports",
+          "value": "2x Thunderbolt 4, 2x USB-A, HDMI, Ethernet"
+        },
+        "displaySupport": {
+          "label": "Display Support",
+          "value": "Up to 2 displays"
+        },
+        "networking": {
+          "label": "Networking",
+          "value": "Wi-Fi 6E, Bluetooth 5.3, Gigabit Ethernet"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "Built-in speaker, 3.5mm jack"
+        },
+        "powerSupply": {
+          "label": "Power",
+          "value": "Built-in power supply"
+        },
+        "dimensions": {
+          "label": "Dimensions",
+          "value": "197 x 197 x 35.8 mm"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "1.18 kg"
+        }
+      },
+      "colors": [
+        "#C0C0C0"
+      ],
+      "storageOptions": [
+        "256GB",
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "ramOptions": [
+        "8GB",
+        "16GB",
+        "24GB"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 345,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Diana L.",
+          "rating": 5,
+          "text": "Best laptop I've ever used. Battery is incredible."
+        },
+        {
+          "author": "Brian W.",
+          "rating": 4,
+          "text": "Solid performance. Build quality is top-notch."
+        },
+        {
+          "author": "Claire V.",
+          "rating": 5,
+          "text": "Exceeded expectations. Best purchase this year."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "title": "Samsung Galaxy Buds3 Pro Graphite",
+      "price": "$249",
+      "image": "/images/product-buds.png",
+      "category": "headphones",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/headphones/samsung"
+        }
+      ],
+      "description": "Galaxy AI-powered sound. 2-way speakers. Adaptive noise control. Blade lights design.",
+      "fullDescription": "Galaxy Buds3 Pro feature Galaxy AI for intelligent sound optimization. The iconic blade lights design stands out. 2-way speakers deliver rich bass and crisp highs.",
+      "specs": {
+        "driver": {
+          "label": "Driver",
+          "value": "2-way speaker, 10.5mm woofer + 6.1mm tweeter"
+        },
+        "anc": {
+          "label": "Active Noise Cancellation",
+          "value": "Yes, AI-powered"
+        },
+        "ambient": {
+          "label": "Ambient Sound",
+          "value": "Yes, adaptive"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "7h (30h with case)"
+        },
+        "charging": {
+          "label": "Charging",
+          "value": "USB-C, Qi wireless"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.4"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "IP57"
+        },
+        "codec": {
+          "label": "Codec",
+          "value": "Samsung Seamless Codec HiFi, AAC, SBC"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "5.4 g per earbud"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Touch, pinch"
+        }
+      },
+      "colors": [
+        "#4A4A4A",
+        "#FFFFFF"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 156,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Olivia P.",
+          "rating": 5,
+          "text": "Perfect for music and calls. Battery lasts forever."
+        },
+        {
+          "author": "Nick S.",
+          "rating": 5,
+          "text": "Comfortable for all-day wear. Audio quality is stellar."
+        },
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        },
+        {
+          "author": "Jake R.",
+          "rating": 4,
+          "text": "Great value. Comfortable for gaming too."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Apple iPad mini 6 64GB Purple",
+      "price": "$499",
+      "image": "/images/product-ipad.png",
+      "category": "tablets",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Tablets",
+          "path": "/catalog/tablets"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/tablets/apple"
+        }
+      ],
+      "description": "Mega power. Mini icons size. A15 Bionic chip. 8.3\" Liquid Retina display. Apple Pencil 2 support.",
+      "fullDescription": "iPad mini packs the A15 Bionic chip into an ultra-portable design. The 8.3\" Liquid Retina display is perfect for gaming, reading, and creating. Touch ID and Apple Pencil 2 support included.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "8.3\" Liquid Retina IPS"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2266 x 1488 pixels"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple A15 Bionic"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "64 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "12 MP Wide"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP Ultra Wide"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 10 hours"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Wi-Fi 6"
+        },
+        "os": {
+          "label": "OS",
+          "value": "iPadOS 17"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "293 g"
+        }
+      },
+      "colors": [
+        "#E0B0FF",
+        "#4A4A4A",
+        "#F5F5DC",
+        "#FFB6C1"
+      ],
+      "storageOptions": [
+        "64GB",
+        "256GB"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 423,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Emma G.",
+          "rating": 4,
+          "text": "Smooth performance. Perfect size for reading."
+        },
+        {
+          "author": "Jack M.",
+          "rating": 5,
+          "text": "Premium feel. Worth the investment."
+        },
+        {
+          "author": "Nina K.",
+          "rating": 4,
+          "text": "Great tablet for students. Battery life is impressive."
+        },
+        {
+          "author": "Leo F.",
+          "rating": 5,
+          "text": "Best tablet in its class. Highly recommend."
+        },
+        {
+          "author": "Zoe R.",
+          "rating": 4,
+          "text": "Excellent for productivity. Multitasking is smooth."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "title": "Sony WF-1000XM5 True Wireless Earbuds Black",
+      "price": "$299",
+      "image": "/images/product-buds.png",
+      "category": "headphones",
+      "brand": "sony",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Sony",
+          "path": "/catalog/headphones/sony"
+        }
+      ],
+      "description": "Best-in-class noise canceling. Hi-Res Audio Wireless. 8 hours battery. Speak-to-Chat.",
+      "fullDescription": "WF-1000XM5 delivers the best noise canceling in truly wireless earbuds. The new Dynamic Driver X produces stunning sound quality. Speak-to-Chat automatically pauses music when you talk.",
+      "specs": {
+        "driver": {
+          "label": "Driver",
+          "value": "8.4mm Dynamic Driver X"
+        },
+        "anc": {
+          "label": "Noise Cancellation",
+          "value": "Best-in-class, 6 mics"
+        },
+        "frequency": {
+          "label": "Frequency",
+          "value": "20Hz - 40,000Hz (LDAC)"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "8h (24h with case)"
+        },
+        "charging": {
+          "label": "Charging",
+          "value": "USB-C, Qi wireless"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Bluetooth 5.3, Multipoint"
+        },
+        "codec": {
+          "label": "Codec",
+          "value": "LDAC, AAC, SBC, LC3"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "IPX4"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "5.9 g per earbud"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Touch, Speak-to-Chat"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#C0C0C0"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 567,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Emily T.",
+          "rating": 5,
+          "text": "Best noise cancellation I've experienced. Sound is amazing."
+        },
+        {
+          "author": "Matt G.",
+          "rating": 5,
+          "text": "Spatial Audio is mind-blowing. Worth every cent."
+        },
+        {
+          "author": "Olivia P.",
+          "rating": 5,
+          "text": "Perfect for music and calls. Battery lasts forever."
+        },
+        {
+          "author": "Nick S.",
+          "rating": 5,
+          "text": "Comfortable for all-day wear. Audio quality is stellar."
+        },
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        },
+        {
+          "author": "Jake R.",
+          "rating": 4,
+          "text": "Great value. Comfortable for gaming too."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Apple MacBook Pro 16\" M3 Max 1TB Space Black",
+      "price": "$3499",
+      "image": "/images/macbook-pro-42fce2.png",
+      "category": "laptops",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Laptops",
+          "path": "/catalog/laptops"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/laptops/apple"
+        }
+      ],
+      "description": "M3 Max with up to 128GB unified memory. Up to 22 hours battery. Stunning 16\" Liquid Retina XDR display.",
+      "fullDescription": "MacBook Pro 16\" with M3 Max is the most powerful Mac laptop ever. Handle the most demanding pro workflows with up to 128GB of unified memory. The 16\" display provides immersive visuals.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "16.2\" Liquid Retina XDR"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "3456 x 2234 pixels"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Apple M3 Max 14-core CPU, 30-core GPU"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "36 GB Unified Memory"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "1 TB SSD"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 22 hours"
+        },
+        "ports": {
+          "label": "Ports",
+          "value": "3x Thunderbolt 4, HDMI, SD, MagSafe 3"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "1080p FaceTime HD"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "6-speaker sound system"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "2.14 kg"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#C0C0C0"
+      ],
+      "storageOptions": [
+        "512GB",
+        "1TB",
+        "2TB",
+        "4TB",
+        "8TB"
+      ],
+      "ramOptions": [
+        "36GB",
+        "48GB",
+        "64GB",
+        "128GB"
+      ],
+      "rating": 4.9,
+      "reviewsCount": 123,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Maya H.",
+          "rating": 5,
+          "text": "Silent operation. No fans running during normal use."
+        },
+        {
+          "author": "Ryan C.",
+          "rating": 5,
+          "text": "Blazing fast. Handles all my creative work effortlessly."
+        },
+        {
+          "author": "Rachel T.",
+          "rating": 5,
+          "text": "Perfect for development. Love the display."
+        },
+        {
+          "author": "Paul J.",
+          "rating": 4,
+          "text": "Great for video editing. Renders quickly."
+        },
+        {
+          "author": "Diana L.",
+          "rating": 5,
+          "text": "Best laptop I've ever used. Battery is incredible."
+        },
+        {
+          "author": "Brian W.",
+          "rating": 4,
+          "text": "Solid performance. Build quality is top-notch."
+        },
+        {
+          "author": "Claire V.",
+          "rating": 5,
+          "text": "Exceeded expectations. Best purchase this year."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "title": "Google Pixel 8 128GB Hazel",
+      "price": "$699",
+      "image": "/images/product-iphone.png",
+      "category": "phones",
+      "brand": "google",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Google",
+          "path": "/catalog/phones/google"
+        }
+      ],
+      "description": "Tensor G3 chip. Best Take photo feature. Audio Magic Eraser. 7 years of updates.",
+      "fullDescription": "Pixel 8 makes every moment more magical with Google AI. Take the best photo with Best Take, and remove distracting sounds with Audio Magic Eraser. Seven years of software updates.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.2\" OLED, 120Hz"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2400 x 1080 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Google Tensor G3"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "8 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "128 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "50 MP + 12 MP"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "10.5 MP"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "4575 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Android 14"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "187 g"
+        }
+      },
+      "colors": [
+        "#6B8E23",
+        "#1D1D1F",
+        "#F5F5F7",
+        "#FFB6C1"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 312,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Alex K.",
+          "rating": 5,
+          "text": "Best phone I've ever owned. The display is incredibly smooth and camera quality is outstanding."
+        },
+        {
+          "author": "Elena V.",
+          "rating": 5,
+          "text": "Stunning design. Zero regrets with this purchase."
+        },
+        {
+          "author": "Chris R.",
+          "rating": 4,
+          "text": "Solid build quality. Fast and responsive."
+        },
+        {
+          "author": "Lisa B.",
+          "rating": 5,
+          "text": "Switched from Android and never looked back. Amazing!"
+        },
+        {
+          "author": "James T.",
+          "rating": 4,
+          "text": "Great device but quite heavy. Dynamic Island is a nice touch."
+        },
+        {
+          "author": "Sophie M.",
+          "rating": 5,
+          "text": "Perfect for work and entertainment. Love the camera!"
+        },
+        {
+          "author": "Mark W.",
+          "rating": 4,
+          "text": "Great value. Only minor complaints about weight."
+        },
+        {
+          "author": "Maria S.",
+          "rating": 5,
+          "text": "Upgraded from older model and the difference is massive. Battery lasts all day."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "title": "Samsung Galaxy Tab S9 11\" 128GB",
+      "price": "$849",
+      "image": "/images/product-ipad.png",
+      "category": "tablets",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Tablets",
+          "path": "/catalog/tablets"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/tablets/samsung"
+        }
+      ],
+      "description": "11\" Dynamic AMOLED 2X display. Snapdragon 8 Gen 2. S Pen included. IP68 water resistant.",
+      "fullDescription": "Galaxy Tab S9 combines portability with power. The 11\" Dynamic AMOLED 2X display is perfect for work and entertainment. IP68 rating means you can use it worry-free almost anywhere.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "11\" Dynamic AMOLED 2X, 120Hz"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2560 x 1600 pixels"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "Snapdragon 8 Gen 2 for Galaxy"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "8 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "128 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "13 MP + 8 MP Ultra Wide"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP Ultra Wide"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "8400 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Android 14, One UI 6"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "498 g"
+        }
+      },
+      "colors": [
+        "#1D1D1F",
+        "#F5F5DC"
+      ],
+      "storageOptions": [
+        "128GB",
+        "256GB"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 234,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Zoe R.",
+          "rating": 4,
+          "text": "Excellent for productivity. Multitasking is smooth."
+        },
+        {
+          "author": "Oscar D.",
+          "rating": 5,
+          "text": "Replaced my laptop for light work. Love it!"
+        },
+        {
+          "author": "Ivy S.",
+          "rating": 4,
+          "text": "Great for streaming and browsing. No lag at all."
+        },
+        {
+          "author": "Tom H.",
+          "rating": 5,
+          "text": "Perfect for drawing and note-taking. Display is gorgeous."
+        },
+        {
+          "author": "Emma G.",
+          "rating": 4,
+          "text": "Smooth performance. Perfect size for reading."
+        },
+        {
+          "author": "Jack M.",
+          "rating": 5,
+          "text": "Premium feel. Worth the investment."
+        },
+        {
+          "author": "Nina K.",
+          "rating": 4,
+          "text": "Great tablet for students. Battery life is impressive."
+        },
+        {
+          "author": "Leo F.",
+          "rating": 5,
+          "text": "Best tablet in its class. Highly recommend."
+        },
+        {
+          "author": "Zoe R.",
+          "rating": 4,
+          "text": "Excellent for productivity. Multitasking is smooth."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Canon EOS R8 Body",
+      "price": "$1499",
+      "image": "/images/product-camera.png",
+      "category": "cameras",
+      "brand": "canon",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Cameras",
+          "path": "/catalog/cameras"
+        },
+        {
+          "label": "Canon",
+          "path": "/catalog/cameras/canon"
+        }
+      ],
+      "description": "Compact full-frame mirrorless. 24.2MP sensor. 4K 60p video. Animal detection AF.",
+      "fullDescription": "Canon EOS R8 is a compact and lightweight full-frame mirrorless camera. It inherits advanced AF features from higher-end models including animal detection. Great for photos and 4K video.",
+      "specs": {
+        "sensor": {
+          "label": "Sensor",
+          "value": "24.2MP Full-Frame CMOS"
+        },
+        "processor": {
+          "label": "Processor",
+          "value": "DIGIC X"
+        },
+        "iso": {
+          "label": "ISO Range",
+          "value": "100-102,400 (expandable)"
+        },
+        "af": {
+          "label": "AF Points",
+          "value": "1053 zones"
+        },
+        "continuousShooting": {
+          "label": "Continuous",
+          "value": "Up to 40fps (e-shutter)"
+        },
+        "video": {
+          "label": "Video",
+          "value": "4K 60p, 6K RAW external"
+        },
+        "stabilization": {
+          "label": "IBIS",
+          "value": "Movie digital IS"
+        },
+        "viewfinder": {
+          "label": "Viewfinder",
+          "value": "2.36M dot OLED EVF"
+        },
+        "screen": {
+          "label": "Screen",
+          "value": "3\" Vari-angle touchscreen"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "461 g (body)"
+        }
+      },
+      "colors": [
+        "#1D1D1F"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 178,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Helen K.",
+          "rating": 5,
+          "text": "Best camera for hybrid shooters. Love it!"
+        },
+        {
+          "author": "Henry T.",
+          "rating": 4,
+          "text": "Reliable and versatile. Built like a tank."
+        },
+        {
+          "author": "Carlos L.",
+          "rating": 4,
+          "text": "Excellent autofocus. Video quality is superb."
+        },
+        {
+          "author": "Fiona S.",
+          "rating": 5,
+          "text": "Captures moments perfectly. Worth the investment."
+        },
+        {
+          "author": "Sandra M.",
+          "rating": 5,
+          "text": "Upgraded from DSLR. Mirrorless is the future."
+        },
+        {
+          "author": "George N.",
+          "rating": 4,
+          "text": "Great sensor. IBIS works really well."
+        },
+        {
+          "author": "Peter F.",
+          "rating": 5,
+          "text": "Pro-level image quality. Low light performance is incredible."
+        },
+        {
+          "author": "Helen K.",
+          "rating": 5,
+          "text": "Best camera for hybrid shooters. Love it!"
+        },
+        {
+          "author": "Henry T.",
+          "rating": 4,
+          "text": "Reliable and versatile. Built like a tank."
+        },
+        {
+          "author": "Carlos L.",
+          "rating": 4,
+          "text": "Excellent autofocus. Video quality is superb."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "title": "Apple AirPods 3rd Generation",
+      "price": "$169",
+      "image": "/images/product-buds.png",
+      "category": "headphones",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Headphones",
+          "path": "/catalog/headphones"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/headphones/apple"
+        }
+      ],
+      "description": "Spatial Audio with head tracking. Adaptive EQ. Force sensor controls. Water and sweat resistant.",
+      "fullDescription": "AirPods 3rd generation feature Spatial Audio with dynamic head tracking. Adaptive EQ automatically tunes music to your ears. The all-new contoured design delivers better sound and comfort.",
+      "specs": {
+        "chip": {
+          "label": "Chip",
+          "value": "Apple H1"
+        },
+        "spatialAudio": {
+          "label": "Spatial Audio",
+          "value": "Yes with dynamic head tracking"
+        },
+        "adaptiveEQ": {
+          "label": "Adaptive EQ",
+          "value": "Yes"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "6h (30h with case)"
+        },
+        "charging": {
+          "label": "Charging",
+          "value": "Lightning, MagSafe, Qi wireless"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "IPX4"
+        },
+        "sensors": {
+          "label": "Sensors",
+          "value": "Skin-detect, force sensor"
+        },
+        "controls": {
+          "label": "Controls",
+          "value": "Press, Hey Siri"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "4.28 g per earbud"
+        },
+        "compatibility": {
+          "label": "Compatibility",
+          "value": "Apple devices with latest OS"
+        }
+      },
+      "colors": [
+        "#FFFFFF"
+      ],
+      "rating": 4.5,
+      "reviewsCount": 1234,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Nick S.",
+          "rating": 5,
+          "text": "Comfortable for all-day wear. Audio quality is stellar."
+        },
+        {
+          "author": "Kate W.",
+          "rating": 5,
+          "text": "Crystal clear calls. ANC blocks everything."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "title": "Microsoft Xbox Series S 512GB",
+      "price": "$299",
+      "image": "/images/playstation-35858b.png",
+      "category": "gaming",
+      "brand": "microsoft",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Gaming",
+          "path": "/catalog/gaming"
+        },
+        {
+          "label": "Microsoft",
+          "path": "/catalog/gaming/microsoft"
+        }
+      ],
+      "description": "All-digital next-gen gaming. 1440p at 120fps. Smallest Xbox ever. Quick Resume.",
+      "fullDescription": "Xbox Series S is the smallest Xbox ever. Go all-digital with next-gen performance at an affordable price. Enjoy 1440p gaming, quick load times, and Quick Resume for jumping between games.",
+      "specs": {
+        "cpu": {
+          "label": "CPU",
+          "value": "AMD Zen 2, 8 cores @ 3.6GHz"
+        },
+        "gpu": {
+          "label": "GPU",
+          "value": "AMD RDNA 2, 4 TFLOPS"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "10 GB GDDR6"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "512 GB NVMe SSD"
+        },
+        "output": {
+          "label": "Video Output",
+          "value": "1440p 120Hz, VRR, HDR"
+        },
+        "audio": {
+          "label": "Audio",
+          "value": "Dolby Atmos"
+        },
+        "discDrive": {
+          "label": "Disc Drive",
+          "value": "None (all-digital)"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "Wi-Fi 5, Ethernet, Bluetooth"
+        },
+        "controller": {
+          "label": "Controller",
+          "value": "Xbox Wireless Controller"
+        },
+        "dimensions": {
+          "label": "Dimensions",
+          "value": "65 x 151 x 275 mm"
+        }
+      },
+      "colors": [
+        "#FFFFFF"
+      ],
+      "rating": 4.5,
+      "reviewsCount": 2345,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Ethan P.",
+          "rating": 5,
+          "text": "Best purchase for my gaming setup. No regrets."
+        },
+        {
+          "author": "Lily R.",
+          "rating": 5,
+          "text": "Best console I've owned. Games look stunning."
+        },
+        {
+          "author": "Liam W.",
+          "rating": 5,
+          "text": "Exceeded all expectations. 4K gaming is smooth."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "title": "Samsung Galaxy S24+ 256GB Cobalt Violet",
+      "price": "$999",
+      "image": "/images/product-iphone.png",
+      "category": "phones",
+      "brand": "samsung",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Phones",
+          "path": "/catalog/phones"
+        },
+        {
+          "label": "Samsung",
+          "path": "/catalog/phones/samsung"
+        }
+      ],
+      "description": "Galaxy AI features. 6.7\" display. 50MP camera. 7 years of updates.",
+      "fullDescription": "Galaxy S24+ brings Galaxy AI to a larger canvas. The 6.7\" Dynamic AMOLED 2X display is perfect for productivity and entertainment. Circle to Search, Live Translate, and more.",
+      "specs": {
+        "screen": {
+          "label": "Screen",
+          "value": "6.7\" Dynamic AMOLED 2X, 120Hz"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "3120 x 1440 pixels (QHD+)"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Exynos 2400"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "12 GB"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "256 GB"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "50 MP + 12 MP + 10 MP"
+        },
+        "frontCamera": {
+          "label": "Front Camera",
+          "value": "12 MP"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "4900 mAh"
+        },
+        "os": {
+          "label": "OS",
+          "value": "Android 14, One UI 6.1"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "196 g"
+        }
+      },
+      "colors": [
+        "#9370DB",
+        "#1D1D1F",
+        "#E5E4E2",
+        "#FFD700"
+      ],
+      "storageOptions": [
+        "256GB",
+        "512GB"
+      ],
+      "rating": 4.7,
+      "reviewsCount": 312,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Sophie M.",
+          "rating": 5,
+          "text": "Perfect for work and entertainment. Love the camera!"
+        },
+        {
+          "author": "Mark W.",
+          "rating": 4,
+          "text": "Great value. Only minor complaints about weight."
+        },
+        {
+          "author": "Maria S.",
+          "rating": 5,
+          "text": "Upgraded from older model and the difference is massive. Battery lasts all day."
+        },
+        {
+          "author": "David L.",
+          "rating": 4,
+          "text": "Excellent performance. Runs flawlessly."
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "title": "Apple Watch SE 2nd Gen 40mm Starlight",
+      "price": "$249",
+      "image": "/images/product-watch.png",
+      "category": "smartwatches",
+      "brand": "apple",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Smart Watches",
+          "path": "/catalog/smartwatches"
+        },
+        {
+          "label": "Apple",
+          "path": "/catalog/smartwatches/apple"
+        }
+      ],
+      "description": "Essential features at an incredible value. S8 chip. Crash Detection. Family Setup.",
+      "fullDescription": "Apple Watch SE has the core Apple Watch experience at an affordable price. Track your workouts, monitor your heart rate, and get notifications from your iPhone. Crash Detection and Family Setup included.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "40mm Retina LTPO OLED"
+        },
+        "chip": {
+          "label": "Chip",
+          "value": "S8 SiP"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "32 GB"
+        },
+        "waterResistance": {
+          "label": "Water Resistance",
+          "value": "50 meters"
+        },
+        "battery": {
+          "label": "Battery Life",
+          "value": "Up to 18 hours"
+        },
+        "connectivity": {
+          "label": "Connectivity",
+          "value": "GPS, Wi-Fi, Bluetooth 5.3"
+        },
+        "sensors": {
+          "label": "Sensors",
+          "value": "Heart rate, Accelerometer, Gyroscope"
+        },
+        "safety": {
+          "label": "Safety",
+          "value": "Crash Detection, Fall Detection"
+        },
+        "os": {
+          "label": "OS",
+          "value": "watchOS 10"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "26.4 g"
+        }
+      },
+      "colors": [
+        "#F5F5F0",
+        "#1D1D1F",
+        "#C0C0C0"
+      ],
+      "sizeOptions": [
+        "40mm",
+        "44mm"
+      ],
+      "rating": 4.8,
+      "reviewsCount": 567,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Sarah M.",
+          "rating": 5,
+          "text": "Love the health tracking. Sleep analysis is accurate."
+        },
+        {
+          "author": "Dan P.",
+          "rating": 5,
+          "text": "Best smartwatch I've owned. Stylish and functional."
+        },
+        {
+          "author": "Sarah M.",
+          "rating": 5,
+          "text": "Love the health tracking. Sleep analysis is accurate."
+        },
+        {
+          "author": "Dan P.",
+          "rating": 5,
+          "text": "Best smartwatch I've owned. Stylish and functional."
+        },
+        {
+          "author": "Sarah M.",
+          "rating": 5,
+          "text": "Love the health tracking. Sleep analysis is accurate."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "title": "Dell XPS 13 9340 Intel Core Ultra 5 16GB 512GB",
+      "price": "$1199",
+      "image": "/images/macbook-pro-42fce2.png",
+      "category": "laptops",
+      "brand": "dell",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Laptops",
+          "path": "/catalog/laptops"
+        },
+        {
+          "label": "Dell",
+          "path": "/catalog/laptops/dell"
+        }
+      ],
+      "description": "Stunning 13.4\" OLED display. Intel Core Ultra with AI. Ultra-compact design. All-day battery.",
+      "fullDescription": "Dell XPS 13 is the ultimate ultraportable laptop. The stunning OLED display delivers incredible visuals. Intel Core Ultra processor brings AI capabilities to Windows for smarter experiences.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "13.4\" OLED 3K"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2880 x 1800 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Intel Core Ultra 5 125H"
+        },
+        "gpu": {
+          "label": "GPU",
+          "value": "Intel Arc Graphics"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "16 GB LPDDR5X"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "512 GB NVMe SSD"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "Up to 12 hours"
+        },
+        "ports": {
+          "label": "Ports",
+          "value": "2x Thunderbolt 4"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "1080p with Windows Hello"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "1.17 kg"
+        }
+      },
+      "colors": [
+        "#C0C0C0",
+        "#1D1D1F"
+      ],
+      "storageOptions": [
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "ramOptions": [
+        "16GB",
+        "32GB"
+      ],
+      "rating": 4.5,
+      "reviewsCount": 189,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Maya H.",
+          "rating": 5,
+          "text": "Silent operation. No fans running during normal use."
+        },
+        {
+          "author": "Ryan C.",
+          "rating": 5,
+          "text": "Blazing fast. Handles all my creative work effortlessly."
+        },
+        {
+          "author": "Rachel T.",
+          "rating": 5,
+          "text": "Perfect for development. Love the display."
+        },
+        {
+          "author": "Paul J.",
+          "rating": 4,
+          "text": "Great for video editing. Renders quickly."
+        },
+        {
+          "author": "Diana L.",
+          "rating": 5,
+          "text": "Best laptop I've ever used. Battery is incredible."
+        },
+        {
+          "author": "Brian W.",
+          "rating": 4,
+          "text": "Solid performance. Build quality is top-notch."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "title": "Dell XPS 13 9340 Intel Core Ultra 5 16GB 512GB",
+      "price": "$1199",
+      "oldPrice": "$1499",
+      "image": "/images/macbook-pro-42fce2.png",
+      "category": "laptops",
+      "brand": "dell",
+      "breadcrumbs": [
+        {
+          "label": "Catalog",
+          "path": "/catalog"
+        },
+        {
+          "label": "Laptops",
+          "path": "/catalog/laptops"
+        },
+        {
+          "label": "Dell",
+          "path": "/catalog/laptops/dell"
+        }
+      ],
+      "description": "Stunning 13.4\" OLED display. Intel Core Ultra with AI. Ultra-compact design. All-day battery.",
+      "fullDescription": "Dell XPS 13 is the ultimate ultraportable laptop. The stunning OLED display delivers incredible visuals. Intel Core Ultra processor brings AI capabilities to Windows for smarter experiences.",
+      "specs": {
+        "display": {
+          "label": "Display",
+          "value": "13.4\" OLED 3K"
+        },
+        "resolution": {
+          "label": "Resolution",
+          "value": "2880 x 1800 pixels"
+        },
+        "cpu": {
+          "label": "CPU",
+          "value": "Intel Core Ultra 5 125H"
+        },
+        "gpu": {
+          "label": "GPU",
+          "value": "Intel Arc Graphics"
+        },
+        "ram": {
+          "label": "RAM",
+          "value": "16 GB LPDDR5X"
+        },
+        "storage": {
+          "label": "Storage",
+          "value": "512 GB NVMe SSD"
+        },
+        "battery": {
+          "label": "Battery",
+          "value": "Up to 12 hours"
+        },
+        "ports": {
+          "label": "Ports",
+          "value": "2x Thunderbolt 4"
+        },
+        "camera": {
+          "label": "Camera",
+          "value": "1080p with Windows Hello"
+        },
+        "weight": {
+          "label": "Weight",
+          "value": "1.17 kg"
+        }
+      },
+      "colors": [
+        "#C0C0C0",
+        "#1D1D1F"
+      ],
+      "storageOptions": [
+        "512GB",
+        "1TB",
+        "2TB"
+      ],
+      "ramOptions": [
+        "16GB",
+        "32GB"
+      ],
+      "rating": 4.6,
+      "reviewsCount": 189,
+      "inStock": true,
+      "liked": false,
+      "comments": [
+        {
+          "author": "Kevin N.",
+          "rating": 4,
+          "text": "Powerful machine. Slightly expensive but worth it."
+        },
+        {
+          "author": "Maya H.",
+          "rating": 5,
+          "text": "Silent operation. No fans running during normal use."
+        },
+        {
+          "author": "Ryan C.",
+          "rating": 5,
+          "text": "Blazing fast. Handles all my creative work effortlessly."
+        },
+        {
+          "author": "Rachel T.",
+          "rating": 5,
+          "text": "Perfect for development. Love the display."
+        },
+        {
+          "author": "Paul J.",
+          "rating": 4,
+          "text": "Great for video editing. Renders quickly."
+        },
+        {
+          "author": "Diana L.",
+          "rating": 5,
+          "text": "Best laptop I've ever used. Battery is incredible."
+        },
+        {
+          "author": "Brian W.",
+          "rating": 4,
+          "text": "Solid performance. Build quality is top-notch."
+        }
+      ]
+    }
+  ]
+}

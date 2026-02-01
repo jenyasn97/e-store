@@ -1,12 +1,13 @@
 import { useState, useRef, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import './Category.scss'
 
 const categories = [
   { id: 'phones', name: 'Phones', icon: '/images/icon-phones.svg' },
-  { id: 'watches', name: 'Smart Watches', icon: '/images/icon-watches.svg' },
+  { id: 'smartwatches', name: 'Smart Watches', icon: '/images/icon-watches.svg' },
   { id: 'cameras', name: 'Cameras', icon: '/images/icon-cameras.svg' },
   { id: 'headphones', name: 'Headphones', icon: '/images/icon-headphones.svg' },
-  { id: 'computers', name: 'Computers', icon: '/images/icon-computers.svg' },
+  { id: 'laptops', name: 'Computers', icon: '/images/icon-computers.svg' },
   { id: 'gaming', name: 'Gaming', icon: '/images/icon-gaming.svg' },
 ]
 
@@ -68,10 +69,10 @@ export default function Category() {
       <div className="category__list-wrap">
       <div className={`category__list category__list--infinite ${noTransition ? 'category__list--no-transition' : ''}`} ref={listRef}>
         {infiniteCategories.map((cat, i) => (
-          <article key={`${cat.id}-${i}`} className="category__card">
+          <Link key={`${cat.id}-${i}`} to={`/catalog/${cat.id}`} className="category__card">
             <img src={cat.icon} alt={cat.name} width={48} height={48} />
             <span className="category__name">{cat.name}</span>
-          </article>
+          </Link>
         ))}
       </div>
       </div>

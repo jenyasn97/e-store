@@ -9,7 +9,7 @@ export default function SummerBanner() {
           <h2 className="summer-banner__title">Big <span className="summer-banner__title-accent">Summer</span> Sale</h2>
           <p className="summer-banner__desc">Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
         </div>
-        <Button variant="white-stroke">Shop Now</Button>
+        <Button variant="white-stroke" to="/catalog">Shop Now</Button>
       </div>
     </section>
   )

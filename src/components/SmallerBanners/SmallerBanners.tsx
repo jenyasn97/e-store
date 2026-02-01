@@ -46,7 +46,7 @@ export default function SmallerBanners() {
             </p>
           </div>
           <div className="smaller-banners__big-btn">
-            <Button variant="black-stroke">Shop Now</Button>
+            <Button variant="black-stroke" to="/catalog">Shop Now</Button>
           </div>
         </div>
         <div className="smaller-banners__big-image">

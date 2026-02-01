@@ -90,6 +90,12 @@
   border-radius: 15px;
   flex-shrink: 0;
   scroll-snap-align: start;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    background: #e0e0e0;
+  }
 }
 
 /* style_3S0NV4: Inter 500, 16px, line-height 1.5, center */

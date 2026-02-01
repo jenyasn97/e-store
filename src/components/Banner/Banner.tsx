@@ -12,7 +12,7 @@ export default function Banner() {
         <p className="banner__description">
           Created to change everything for the better. For everyone
         </p>
-        <Button variant="white-stroke" className="banner__btn">Shop Now</Button>
+        <Button variant="white-stroke" className="banner__btn" to="/catalog">Shop Now</Button>
       </div>
       <div className="banner__image">
         <img src="/images/iphone-banner.svg" alt="iPhone 14 Pro" width={406} height={632} />

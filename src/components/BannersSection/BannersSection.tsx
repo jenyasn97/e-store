@@ -21,7 +21,7 @@ export default function BannersSection() {
               {b.titleAccent ? <>{b.title.replace(b.titleAccent, '')}<span className="banners-section__title-accent">{b.titleAccent}</span></> : b.title}
             </h3>
             <p className="banners-section__text">{b.text}</p>
-            <Button variant={b.class === '--dark' ? 'white-stroke' : 'black-stroke'}>Shop Now</Button>
+            <Button variant={b.class === '--dark' ? 'white-stroke' : 'black-stroke'} to="/catalog">Shop Now</Button>
           </div>
         </article>
       ))}
