@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import Button from '@/components/Button'
 import ProductCard from '@/components/ProductCard'
 import { useProducts } from '@/context/ProductsContext'
+import { useFavorites } from '@/context/FavoritesContext'
 import { getProductImageUrl } from '@/api/products'
 import './ProductDetailsPage.scss'
 
@@ -13,6 +14,7 @@ const VISIBLE_COMMENTS = 3
 export default function ProductDetailsPage() {
   const { id } = useParams<{ id: string }>()
   const { products: allProducts, loading, error } = useProducts()
+  const { isFavorite, toggleFavorite } = useFavorites()
   const [activeMemory, setActiveMemory] = useState(0)
   const [activeColor, setActiveColor] = useState(0)
   const [detailsExpanded, setDetailsExpanded] = useState(false)
@@ -248,7 +250,7 @@ export default function ProductDetailsPage() {
           <h2 className="product-details-page__related-title">Related Products</h2>
           <div className="product-details-page__related-row">
             {relatedProducts.map((p) => (
-              <ProductCard key={p.id} id={p.id} title={p.title} price={p.price} oldPrice={p.oldPrice} image={getProductImageUrl(p.image)} liked={p.liked} />
+              <ProductCard key={p.id} id={p.id} title={p.title} price={p.price} oldPrice={p.oldPrice} image={getProductImageUrl(p.image)} liked={isFavorite(p.id)} onLikeToggle={() => toggleFavorite(p.id)} />
             ))}
           </div>
         </section>

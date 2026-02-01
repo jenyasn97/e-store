@@ -1,7 +1,8 @@
-import { useState, useMemo, useEffect } from 'react'
+import { useState, useMemo, useEffect, useLayoutEffect } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import ProductCard from '@/components/ProductCard'
 import { useProducts } from '@/context/ProductsContext'
+import { useFavorites } from '@/context/FavoritesContext'
 import { getProductImageUrl } from '@/api/products'
 import './CatalogPage.scss'
 
@@ -18,6 +19,7 @@ const SORT_OPTIONS = [
 export default function CatalogPage() {
   const { category, brand: brandParam } = useParams<{ category: string; brand?: string }>()
   const { products, categories, brands, loading, error } = useProducts()
+  const { isFavorite, toggleFavorite } = useFavorites()
   const [categoryFilter, setCategoryFilter] = useState<Set<string>>(new Set())
   const [brandFilter, setBrandFilter] = useState<Set<string>>(new Set())
   const [brandSearch, setBrandSearch] = useState('')
@@ -28,6 +30,10 @@ export default function CatalogPage() {
   const [currentPage, setCurrentPage] = useState(1)
 
   const validCategory = category && categories[category]
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  }, [category, brandParam])
 
   useEffect(() => {
     if (category && categories[category]) {
@@ -292,7 +298,8 @@ export default function CatalogPage() {
                   price={p.price}
                   oldPrice={p.oldPrice}
                   image={getProductImageUrl(p.image)}
-                  liked={p.liked}
+                  liked={isFavorite(p.id)}
+                  onLikeToggle={() => toggleFavorite(p.id)}
                 />
               ))}
             </div>

@@ -1,0 +1,44 @@
+@use '../../styles/variables' as *;
+
+.cart-page {
+  padding: 40px 48px 56px;
+}
+
+.cart-page__breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.cart-page__breadcrumb-link {
+  color: #a4a4a4;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-black;
+  }
+}
+
+.cart-page__breadcrumb-sep {
+  color: #a4a4a4;
+}
+
+.cart-page__breadcrumb-current {
+  color: $color-black;
+}
+
+.cart-page__empty {
+  text-align: center;
+  padding: 64px 24px;
+
+  h2 {
+    margin: 0 0 16px;
+    font-size: 24px;
+  }
+}
+
+.cart-page__link {
+  color: $color-black;
+  text-decoration: underline;
+}

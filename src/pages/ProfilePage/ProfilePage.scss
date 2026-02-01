@@ -1,0 +1,38 @@
+@use '../../styles/variables' as *;
+
+.profile-page {
+  padding: 40px 48px 56px;
+}
+
+.profile-page__breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.profile-page__breadcrumb-link {
+  color: #a4a4a4;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-black;
+  }
+}
+
+.profile-page__breadcrumb-sep {
+  color: #a4a4a4;
+}
+
+.profile-page__breadcrumb-current {
+  color: $color-black;
+}
+
+.profile-page__placeholder {
+  padding: 64px 24px;
+
+  h2 {
+    margin: 0 0 8px;
+    font-size: 24px;
+  }
+}
