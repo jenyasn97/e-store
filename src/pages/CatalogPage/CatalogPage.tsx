@@ -8,7 +8,7 @@ import './CatalogPage.scss'
 
 /* Figma node 179-1445: Products Page / Catalog */
 
-const PRODUCTS_PER_PAGE = 8
+const PRODUCTS_PER_PAGE = 12
 const SORT_OPTIONS = [
   { value: 'rating', label: 'By rating' },
   { value: 'price-asc', label: 'Price: Low to High' },

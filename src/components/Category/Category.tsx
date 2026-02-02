@@ -4,11 +4,13 @@ import './Category.scss'
 
 const categories = [
   { id: 'phones', name: 'Phones', icon: '/images/icon-phones.svg' },
+  { id: 'tablets', name: 'Tablets', icon: '/images/icon-tablets.svg' },
   { id: 'smartwatches', name: 'Smart Watches', icon: '/images/icon-watches.svg' },
   { id: 'cameras', name: 'Cameras', icon: '/images/icon-cameras.svg' },
   { id: 'headphones', name: 'Headphones', icon: '/images/icon-headphones.svg' },
-  { id: 'laptops', name: 'Computers', icon: '/images/icon-computers.svg' },
+  { id: 'laptops', name: 'Laptops', icon: '/images/icon-computers.svg' },
   { id: 'gaming', name: 'Gaming', icon: '/images/icon-gaming.svg' },
+  { id: 'accessories', name: 'Accessories', icon: '/images/icon-accessories.svg' },
 ]
 
 const CARD_WIDTH = 192

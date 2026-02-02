@@ -38,6 +38,7 @@
   flex-direction: row;
   gap: 32px;
   padding-bottom: 8px;
+  padding-right: 192px;
 
   &--infinite {
     transition: transform 0.3s ease;
@@ -85,6 +86,7 @@
   gap: 8px;
   padding: 24px 52px;
   width: 160px;
+  min-width: 160px;
   height: 128px;
   background: #ededed;
   border-radius: 15px;
@@ -92,6 +94,7 @@
   scroll-snap-align: start;
   text-decoration: none;
   color: inherit;
+  overflow: visible;
 
   &:hover {
     background: #e0e0e0;
