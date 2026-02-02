@@ -1,4 +1,4 @@
-@use '../../styles/variables' as *;
+@use "../../styles/variables" as *;
 
 .banner {
   display: flex;
@@ -12,15 +12,55 @@
   background: linear-gradient(95deg, #211c24 0%, #211c24 100%);
 }
 
-.banner__content { display: flex; flex-direction: column; gap: $spacing-md; flex-shrink: 0; }
-.banner__titles { display: flex; flex-direction: column; gap: $spacing-md; }
-.banner__subtitle { font-weight: 600; font-size: 25px; line-height: 1.28; color: $color-white; opacity: 0.4; }
-.banner__title { margin: 0; font-weight: 100; font-size: 96px; line-height: 0.75; letter-spacing: -0.01em; color: $color-white; }
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+  flex-shrink: 0;
+}
+.banner__titles {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+.banner__subtitle {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.28;
+  color: $color-white;
+  opacity: 0.4;
+}
+.banner__title {
+  margin: 0;
+  font-weight: 100;
+  font-size: 96px;
+  line-height: 0.75;
+  letter-spacing: -0.01em;
+  color: $color-white;
+}
 
-.banner__title-accent { font-weight: 600; }
-.banner__description { margin: 0; font-weight: 500; font-size: 18px; line-height: 1.33; color: $color-text-muted; }
+.banner__title-accent {
+  font-weight: 600;
+}
+.banner__description {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  color: $color-text-muted;
+}
 
-.banner__btn { align-self: flex-start; }
+.banner__btn {
+  align-self: flex-start;
+}
 
-.banner__image { flex-shrink: 0; align-self: flex-end; }
-.banner__image img { width: 406px; height: 632px; object-fit: contain; object-position: right bottom; }
+.banner__image {
+  flex-shrink: 0;
+  align-self: flex-end;
+}
+.banner__image img {
+  width: 406px;
+  height: 632px;
+  object-fit: contain;
+  object-position: right bottom;
+}

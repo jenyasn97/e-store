@@ -1,4 +1,4 @@
-@use '../../styles/variables' as *;
+@use "../../styles/variables" as *;
 
 .products {
   display: flex;
@@ -8,11 +8,39 @@
   background: $color-white;
 }
 
-.products__tags { display: flex; align-items: center; gap: $spacing-lg; }
-.products__tag {
-  display: flex; flex-direction: column; padding: 0; background: none; border: none; font-weight: 500; font-size: 18px; line-height: 1.78; color: $color-text-secondary; cursor: pointer;
-  &--active { color: $color-black; }
+.products__tags {
+  display: flex;
+  align-items: center;
+  gap: $spacing-lg;
 }
-.products__tag-line { display: block; width: 100%; height: 2px; background: $color-black; }
-.products__grid { display: flex; flex-direction: column; gap: $spacing-sm; }
-.products__row { display: grid; grid-template-columns: repeat(4, 1fr); gap: $spacing-sm; }
+.products__tag {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.78;
+  color: $color-text-secondary;
+  cursor: pointer;
+  &--active {
+    color: $color-black;
+  }
+}
+.products__tag-line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: $color-black;
+}
+.products__grid {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+}
+.products__row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $spacing-sm;
+}

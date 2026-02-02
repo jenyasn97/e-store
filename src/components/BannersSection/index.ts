@@ -1,1 +1,1 @@
-export { default } from './BannersSection'
+export { default } from "./BannersSection";

@@ -1,6 +1,5 @@
-@use '../../styles/variables' as *;
+@use "../../styles/variables" as *;
 
-/* Figma layout_SWZ608: column, gap 32px, padding 80px 160px */
 .category {
   display: flex;
   flex-direction: column;
@@ -8,7 +7,6 @@
   padding: 80px 160px;
 }
 
-/* layout_5IDRXZ: row, space-between, center */
 .category__top {
   display: flex;
   flex-direction: row;
@@ -16,7 +14,6 @@
   align-items: center;
 }
 
-/* style_F0AYBC: Inter 500, 24px, line-height 1.33, letter-spacing 1% */
 .category__title {
   margin: 0;
   font-family: $font-family;
@@ -27,7 +24,6 @@
   color: #000000;
 }
 
-/* layout_NRC6DZ: row, gap 32px, слайдер */
 .category__list-wrap {
   overflow: hidden;
   touch-action: pan-y;
@@ -67,17 +63,21 @@
   background: none;
   color: #000;
   cursor: pointer;
-  transition: color 0.2s, opacity 0.2s;
+  transition:
+    color 0.2s,
+    opacity 0.2s;
 
   &:hover,
   &:focus {
     color: #555;
   }
 
-  &:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
+  &:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+  }
 }
 
-/* Figma layout_3TLYRV: column, center, gap 8px, 160×128px, padding 24px 52px, fill #EDEDED, radius 15px */
 .category__card {
   display: flex;
   flex-direction: column;
@@ -101,7 +101,6 @@
   }
 }
 
-/* style_3S0NV4: Inter 500, 16px, line-height 1.5, center */
 .category__name {
   font-family: $font-family;
   font-weight: 500;

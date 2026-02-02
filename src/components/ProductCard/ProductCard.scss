@@ -1,4 +1,4 @@
-@use '../../styles/variables' as *;
+@use "../../styles/variables" as *;
 
 .product-card__link {
   text-decoration: none;
@@ -8,7 +8,6 @@
   min-height: 0;
 }
 
-/* Figma layout_GYSKB7: gap 16px, padding 24px 16px, borderRadius 9px */
 .product-card {
   display: flex;
   flex-direction: column;
@@ -38,7 +37,15 @@
   padding: 0 $spacing-xs;
 }
 
-.product-card__like { padding: 0; background: none; border: none; cursor: pointer; &--outline:hover path { stroke: #ff0000; } }
+.product-card__like {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  &--outline:hover path {
+    stroke: #ff0000;
+  }
+}
 
 .product-card__image {
   display: flex;
@@ -49,10 +56,14 @@
   padding: $spacing-sm;
   flex-shrink: 0;
 
-  img { width: 100%; height: 100%; object-fit: contain; object-position: center; }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
 }
 
-/* Figma layout_42ULSB: gap 24px */
 .product-card__info {
   display: flex;
   flex-direction: column;
@@ -63,7 +74,13 @@
   text-align: center;
 }
 
-.product-card__title { margin: 0; font-weight: 500; font-size: 16px; line-height: 1.5; color: $color-black; }
+.product-card__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $color-black;
+}
 
 .product-card__prices {
   display: flex;
@@ -71,7 +88,13 @@
   gap: 12px;
 }
 
-.product-card__price { font-weight: 600; font-size: 24px; line-height: 1; letter-spacing: 0.03em; color: $color-black; }
+.product-card__price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: $color-black;
+}
 
 .product-card__old-price {
   font-weight: 500;
@@ -81,7 +104,7 @@
   color: #909090;
   text-decoration: line-through;
 }
-/* Figma layout_55P4RS: Buy Now — handled by Button --small --fill-small */
+
 .product-card__btn {
   align-self: center;
   margin-top: auto;

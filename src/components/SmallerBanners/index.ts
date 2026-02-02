@@ -1,1 +1,1 @@
-export { default } from './SmallerBanners'
+export { default } from "./SmallerBanners";

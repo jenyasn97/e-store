@@ -1,27 +1,27 @@
-import { useLayoutEffect } from 'react'
-import { Link } from 'react-router-dom'
-import ProductCard from '@/components/ProductCard'
-import { useProducts } from '@/context/ProductsContext'
-import { useFavorites } from '@/context/FavoritesContext'
-import { getProductImageUrl } from '@/api/products'
-import './FavoritesPage.scss'
+import { useLayoutEffect } from "react";
+import { Link } from "react-router-dom";
+import ProductCard from "@/components/ProductCard";
+import { useProducts } from "@/context/ProductsContext";
+import { useFavorites } from "@/context/FavoritesContext";
+import { getProductImageUrl } from "@/api/products";
+import "./FavoritesPage.scss";
 
 export default function FavoritesPage() {
-  const { products, loading, error } = useProducts()
-  const { favoriteIds, isFavorite, toggleFavorite } = useFavorites()
+  const { products, loading, error } = useProducts();
+  const { favoriteIds, isFavorite, toggleFavorite } = useFavorites();
 
   useLayoutEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
-  const favoriteProducts = products.filter((p) => favoriteIds.has(p.id))
+  const favoriteProducts = products.filter((p) => favoriteIds.has(p.id));
 
   if (loading) {
     return (
       <div className="favorites-page">
         <div className="favorites-page__content favorites-page__loading">Loading...</div>
       </div>
-    )
+    );
   }
 
   if (error) {
@@ -29,7 +29,7 @@ export default function FavoritesPage() {
       <div className="favorites-page">
         <div className="favorites-page__content favorites-page__error">{error}</div>
       </div>
-    )
+    );
   }
 
   return (
@@ -37,9 +37,13 @@ export default function FavoritesPage() {
       <div className="favorites-page__content">
         <nav className="favorites-page__breadcrumbs" aria-label="Breadcrumb">
           <span className="favorites-page__breadcrumb-item">
-            <Link to="/" className="favorites-page__breadcrumb-link">Home</Link>
+            <Link to="/" className="favorites-page__breadcrumb-link">
+              Home
+            </Link>
           </span>
-          <span className="favorites-page__breadcrumb-sep" aria-hidden>›</span>
+          <span className="favorites-page__breadcrumb-sep" aria-hidden>
+            ›
+          </span>
           <span className="favorites-page__breadcrumb-current">Favorites</span>
         </nav>
 
@@ -48,7 +52,9 @@ export default function FavoritesPage() {
             <div className="favorites-page__products-top">
               <div className="favorites-page__products-count">
                 <span className="favorites-page__products-count-label">Favorites:</span>
-                <span className="favorites-page__products-count-value">{favoriteProducts.length}</span>
+                <span className="favorites-page__products-count-value">
+                  {favoriteProducts.length}
+                </span>
               </div>
             </div>
 
@@ -76,5 +82,5 @@ export default function FavoritesPage() {
         </section>
       </div>
     </div>
-  )
+  );
 }

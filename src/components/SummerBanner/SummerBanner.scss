@@ -1,4 +1,4 @@
-@use '../../styles/variables' as *;
+@use "../../styles/variables" as *;
 
 .summer-banner {
   display: flex;
@@ -6,14 +6,36 @@
   justify-content: center;
   align-items: center;
   min-height: 448px;
-  background-image: url('/images/summer-sale-bg.png');
+  background-image: url("/images/summer-sale-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.summer-banner__content { display: flex; flex-direction: column; align-items: center; gap: 40px; }
-.summer-banner__title { margin: 0; font-weight: 200; font-size: 72px; line-height: 1; letter-spacing: -0.01em; text-align: center; color: $color-white; }
+.summer-banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.summer-banner__title {
+  margin: 0;
+  font-weight: 200;
+  font-size: 72px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: $color-white;
+}
 
-.summer-banner__title-accent { font-weight: 600; }
-.summer-banner__desc { margin: 0; font-weight: 400; font-size: 16px; line-height: 2; text-align: center; color: $color-summer-text; }
+.summer-banner__title-accent {
+  font-weight: 600;
+}
+.summer-banner__desc {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  color: $color-summer-text;
+}

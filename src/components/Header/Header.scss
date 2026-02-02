@@ -1,4 +1,4 @@
-@use '../../styles/variables' as *;
+@use "../../styles/variables" as *;
 
 .header {
   display: flex;
@@ -17,10 +17,11 @@
   text-decoration: none;
   color: inherit;
 
-  &:hover { opacity: 0.8; }
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
-/* Figma layout_75SFHK: row, 372×56px, padding 16px, borderRadius 8px */
 .header__search {
   display: flex;
   flex-direction: row;
@@ -33,7 +34,9 @@
   border-radius: 8px;
   flex-shrink: 0;
 
-  img { flex-shrink: 0; }
+  img {
+    flex-shrink: 0;
+  }
 }
 
 .header__search-input {
@@ -47,11 +50,15 @@
   line-height: 1.29;
   color: #000000;
 
-  &::placeholder { color: #656565; opacity: 0.5; }
-  &:focus { outline: none; }
+  &::placeholder {
+    color: #656565;
+    opacity: 0.5;
+  }
+  &:focus {
+    outline: none;
+  }
 }
 
-/* Figma layout_5UBK7U: row, gap 52px */
 .header__nav {
   display: flex;
   flex-direction: row;
@@ -69,8 +76,12 @@
   cursor: pointer;
   transition: opacity 0.2s;
 
-  &--active { opacity: 1; }
-  &:not(.header__nav-link--active) { opacity: 0.3; }
+  &--active {
+    opacity: 1;
+  }
+  &:not(.header__nav-link--active) {
+    opacity: 0.3;
+  }
 
   &:hover,
   &:focus {
@@ -78,10 +89,12 @@
     text-decoration: underline;
   }
 
-  &:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
+  &:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+  }
 }
 
-/* Figma layout_7H7AJU: row, center, gap 24px */
 .header__icons {
   display: flex;
   flex-direction: row;
@@ -132,4 +145,3 @@
   background: #ff0000;
   border-radius: 8px;
 }
-
